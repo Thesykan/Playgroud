@@ -1,0 +1,1354 @@
+[2012-10-08 05:05] Running 'pacman -Syy'
+[2012-10-08 05:05] synchronizing package lists
+[2012-10-08 05:05] Running 'pacman -Syu'
+[2012-10-08 05:05] synchronizing package lists
+[2012-10-08 05:05] starting full system upgrade
+[2012-10-08 05:06] upgraded libusbx (1.0.12-2 -> 1.0.14-1)
+[2012-10-08 05:06] >>> Updating module dependencies. Please wait ...
+[2012-10-08 05:06] >>> Generating initial ramdisk, using mkinitcpio.  Please wait...
+[2012-10-08 05:06] ==> Building image from preset: 'default'
+[2012-10-08 05:06]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2012-10-08 05:06] ==> Starting build: 3.5.6-1-ARCH
+[2012-10-08 05:06]   -> Running build hook: [base]
+[2012-10-08 05:06]   -> Running build hook: [udev]
+[2012-10-08 05:06]   -> Running build hook: [autodetect]
+[2012-10-08 05:06]   -> Running build hook: [pata]
+[2012-10-08 05:06]   -> Running build hook: [scsi]
+[2012-10-08 05:06]   -> Running build hook: [sata]
+[2012-10-08 05:06]   -> Running build hook: [filesystems]
+[2012-10-08 05:06]   -> Running build hook: [usbinput]
+[2012-10-08 05:06]   -> Running build hook: [fsck]
+[2012-10-08 05:06] ==> Generating module dependencies
+[2012-10-08 05:06] ==> Creating gzip initcpio image: /boot/initramfs-linux.img
+[2012-10-08 05:06] ==> Image generation successful
+[2012-10-08 05:06] ==> Building image from preset: 'fallback'
+[2012-10-08 05:06]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2012-10-08 05:06] ==> Starting build: 3.5.6-1-ARCH
+[2012-10-08 05:06]   -> Running build hook: [base]
+[2012-10-08 05:06]   -> Running build hook: [udev]
+[2012-10-08 05:06]   -> Running build hook: [pata]
+[2012-10-08 05:06]   -> Running build hook: [scsi]
+[2012-10-08 05:06]   -> Running build hook: [sata]
+[2012-10-08 05:06]   -> Running build hook: [filesystems]
+[2012-10-08 05:06]   -> Running build hook: [usbinput]
+[2012-10-08 05:06]   -> Running build hook: [fsck]
+[2012-10-08 05:06] ==> Generating module dependencies
+[2012-10-08 05:06] ==> Creating gzip initcpio image: /boot/initramfs-linux-fallback.img
+[2012-10-08 05:06] ==> Image generation successful
+[2012-10-08 05:06] upgraded linux (3.5.4-1 -> 3.5.6-1)
+[2012-10-08 05:06] upgraded linux-headers (3.5.4-1 -> 3.5.6-1)
+[2012-10-08 05:06] upgraded net-snmp (5.7.1-3 -> 5.7.1-4)
+[2012-10-08 05:06] upgraded netcfg (2.8.10-1 -> 2.8.11-1)
+[2012-10-08 06:16] Running 'pacman -Syy'
+[2012-10-08 06:16] synchronizing package lists
+[2012-10-08 06:16] Running 'pacman -R xf86-input-wacom'
+[2012-10-08 06:16] removed xf86-input-wacom (0.17.0-1)
+[2012-10-08 06:17] Running 'pacman -S testing/xf86-input-wacom'
+[2012-10-08 06:19] Running 'pacman -S testing/xorg'
+[2012-10-08 06:19] Running 'pacman -S testing/xorg'
+[2012-10-08 06:19] Running 'pacman -S libgl'
+[2012-10-08 06:21] Running 'pacman -S testing/libgl'
+[2012-10-08 06:22] Running 'pacman -R libgl'
+[2012-10-08 06:24] Running 'pacman -R xf86-video-intel'
+[2012-10-08 06:24] removed xf86-video-intel (2.20.9-1)
+[2012-10-08 06:24] Running 'pacman -R intel-dri'
+[2012-10-08 06:24] removed intel-dri (8.0.4-3)
+[2012-10-08 06:24] Running 'pacman -S testing/xorg'
+[2012-10-08 06:25] upgraded xf86-input-evdev (2.7.3-1 -> 2.7.3-2)
+[2012-10-08 06:25] installed xf86-input-joystick (1.6.1-2)
+[2012-10-08 06:25] installed xf86-input-keyboard (1.6.2-2)
+[2012-10-08 06:25] installed xf86-input-mouse (1.8.1-2)
+[2012-10-08 06:25] upgraded xf86-input-synaptics (1.6.2-1 -> 1.6.2-2)
+[2012-10-08 06:25] installed xf86-input-vmmouse (12.9.0-2)
+[2012-10-08 06:25] installed xf86-input-void (1.4.0-4)
+[2012-10-08 06:25] installed xf86-video-ark (0.7.5-2)
+[2012-10-08 06:25] installed xf86-video-ast (0.97.0-2)
+[2012-10-08 06:25] upgraded libgl (8.0.4-3 -> 8.99.git_20121006-1)
+[2012-10-08 06:25] installed ati-dri (8.99.git_20121006-1)
+[2012-10-08 06:25] installed xf86-video-ati (1:6.14.6-2)
+[2012-10-08 06:25] installed xf86-video-cirrus (1.5.1-2)
+[2012-10-08 06:25] installed xf86-video-dummy (0.3.6-2)
+[2012-10-08 06:25] installed xf86-video-fbdev (0.4.3-2)
+[2012-10-08 06:25] installed xf86-video-glint (1.2.8-2)
+[2012-10-08 06:25] installed xf86-video-i128 (1.3.6-2)
+[2012-10-08 06:25] installed intel-dri (8.99.git_20121006-1)
+[2012-10-08 06:25] >>> This driver now allows to switch
+[2012-10-08 06:25] >>> between sna/uxa acceleration methods.
+[2012-10-08 06:25] >>> Add to the device section in /etc/X11/xorg.conf
+[2012-10-08 06:25] >>>   Option "AccelMethod" "sna"
+[2012-10-08 06:25] >>> use uxa method if you run into trouble with sna.
+[2012-10-08 06:25] installed xf86-video-intel (2.20.9-2)
+[2012-10-08 06:25] installed xf86-video-mach64 (6.9.3-2)
+[2012-10-08 06:25] installed xf86-video-mga (1.6.2-2)
+[2012-10-08 06:25] installed xf86-video-neomagic (1.2.7-2)
+[2012-10-08 06:25] installed xf86-video-openchrome (0.3.1-2)
+[2012-10-08 06:25] installed xf86-video-r128 (6.9.1-2)
+[2012-10-08 06:25] installed xf86-video-savage (2.3.6-2)
+[2012-10-08 06:25] installed xf86-video-siliconmotion (1.7.7-2)
+[2012-10-08 06:25] installed xf86-video-sis (0.10.7-2)
+[2012-10-08 06:25] installed xf86-video-tdfx (1.4.5-2)
+[2012-10-08 06:25] installed xf86-video-trident (1.3.6-2)
+[2012-10-08 06:25] installed xf86-video-v4l (0.2.0-11)
+[2012-10-08 06:25] installed xf86-video-vesa (2.3.2-2)
+[2012-10-08 06:25] installed svga-dri (8.99.git_20121006-1)
+[2012-10-08 06:25] installed xf86-video-vmware (12.0.2-2)
+[2012-10-08 06:25] installed xf86-video-voodoo (1.2.5-2)
+[2012-10-08 06:25] upgraded xorg-server (1.12.4-1 -> 1.13.0-2)
+[2012-10-08 06:25] Running 'pacman -S testing/xf86-wacom-input'
+[2012-10-08 06:26] Running 'pacman -S testing/xf86-input-wacom'
+[2012-10-08 06:26] installed xf86-input-wacom (0.17.0-2)
+[2012-10-08 07:04] Running 'pacman -R xf86-input-wacom'
+[2012-10-08 07:04] removed xf86-input-wacom (0.17.0-2)
+[2012-10-08 07:04] Running 'pacman -S testing/xf86-input-wacom'
+[2012-10-08 07:04] installed xf86-input-wacom (0.17.0-2)
+[2012-10-08 07:33] Running 'pacman -R xf86-input-wacom'
+[2012-10-08 07:33] removed xf86-input-wacom (0.17.0-2)
+[2012-10-08 07:35] Running 'pacman -U /var/cache/pacman/pkg/xf86-input-wacom-git-20121008-1-x86_64.pkg.tar.xz'
+[2012-10-08 07:35] installed xf86-input-wacom-git (20121008-1)
+[2012-10-08 07:35] Running 'pacman -S libxrandr'
+[2012-10-08 07:35] upgraded libxrandr (1.4.0-1 -> 1.4.0-1)
+[2012-10-08 07:35] Running 'pacman -S lib32-libxrandr'
+[2012-10-08 07:35] installed lib32-libxrandr (1.4.0-1)
+[2012-10-08 07:36] Running 'pacman -S libxinerama'
+[2012-10-08 07:36] upgraded libxinerama (1.1.2-1 -> 1.1.2-1)
+[2012-10-08 07:36] Running 'pacman -S lib32-libxinerama'
+[2012-10-08 07:36] installed lib32-libxinerama (1.1.2-1)
+[2012-10-08 07:48] Running 'pacman -R xf86-input-wacom-git'
+[2012-10-08 07:48] removed xf86-input-wacom-git (20121008-1)
+[2012-10-08 07:49] Running 'pacman -S --asdeps cvs tk'
+[2012-10-08 07:49] installed cvs (1.11.23-8)
+[2012-10-08 07:49] installed tcl (8.5.12-1)
+[2012-10-08 07:49] installed tk (8.5.12-1)
+[2012-10-08 07:50] Running 'pacman -S xorg'
+[2012-10-08 07:51] Running 'pacman -R testing/xorg'
+[2012-10-08 07:51] Running 'pacman -R xorg'
+[2012-10-08 07:51] Running 'pacman -S exra/xorg'
+[2012-10-08 07:51] Running 'pacman -S extra/xorg'
+[2012-10-08 07:52] removed xf86-video-openchrome (0.3.1-2)
+[2012-10-08 07:52] installed xf86-input-acecad (1.5.0-3)
+[2012-10-08 07:52] installed xf86-input-aiptek (1.4.1-3)
+[2012-10-08 07:52] upgraded xf86-input-evdev (2.7.3-2 -> 2.7.3-1)
+[2012-10-08 07:52] upgraded xf86-input-joystick (1.6.1-2 -> 1.6.1-1)
+[2012-10-08 07:52] upgraded xf86-input-keyboard (1.6.2-2 -> 1.6.2-1)
+[2012-10-08 07:52] upgraded xf86-input-mouse (1.8.1-2 -> 1.8.1-1)
+[2012-10-08 07:52] upgraded xf86-input-synaptics (1.6.2-2 -> 1.6.2-1)
+[2012-10-08 07:52] upgraded xf86-input-vmmouse (12.9.0-2 -> 12.9.0-1)
+[2012-10-08 07:52] upgraded xf86-input-void (1.4.0-4 -> 1.4.0-3)
+[2012-10-08 07:52] installed xf86-video-apm (1.2.5-1)
+[2012-10-08 07:52] upgraded xf86-video-ark (0.7.5-2 -> 0.7.5-1)
+[2012-10-08 07:52] upgraded xf86-video-ast (0.97.0-2 -> 0.97.0-1)
+[2012-10-08 07:52] upgraded xf86-video-ati (1:6.14.6-2 -> 1:6.14.6-1)
+[2012-10-08 07:52] installed xf86-video-chips (1.2.5-1)
+[2012-10-08 07:52] upgraded xf86-video-cirrus (1.5.1-2 -> 1.5.1-1)
+[2012-10-08 07:52] upgraded xf86-video-dummy (0.3.6-2 -> 0.3.6-1)
+[2012-10-08 07:52] upgraded xf86-video-fbdev (0.4.3-2 -> 0.4.3-1)
+[2012-10-08 07:52] upgraded xf86-video-glint (1.2.8-2 -> 1.2.8-1)
+[2012-10-08 07:52] upgraded xf86-video-i128 (1.3.6-2 -> 1.3.6-1)
+[2012-10-08 07:52] installed xf86-video-i740 (1.3.4-1)
+[2012-10-08 07:52] upgraded xf86-video-intel (2.20.9-2 -> 2.20.9-1)
+[2012-10-08 07:52] upgraded xf86-video-mach64 (6.9.3-2 -> 6.9.3-1)
+[2012-10-08 07:52] upgraded xf86-video-mga (1.6.2-2 -> 1.6.2-1)
+[2012-10-08 07:52] upgraded xf86-video-neomagic (1.2.7-2 -> 1.2.7-1)
+[2012-10-08 07:52] installed xf86-video-nv (2.1.20-1)
+[2012-10-08 07:52] upgraded xf86-video-r128 (6.9.1-2 -> 6.9.1-1)
+[2012-10-08 07:52] installed xf86-video-rendition (4.2.5-1)
+[2012-10-08 07:52] installed xf86-video-s3 (0.6.5-1)
+[2012-10-08 07:52] installed xf86-video-s3virge (1.10.6-1)
+[2012-10-08 07:52] upgraded xf86-video-savage (2.3.6-2 -> 2.3.6-1)
+[2012-10-08 07:52] upgraded xf86-video-siliconmotion (1.7.7-2 -> 1.7.7-1)
+[2012-10-08 07:52] upgraded xf86-video-sis (0.10.7-2 -> 0.10.7-1)
+[2012-10-08 07:52] installed xf86-video-sisusb (0.9.6-1)
+[2012-10-08 07:52] upgraded xf86-video-tdfx (1.4.5-2 -> 1.4.5-1)
+[2012-10-08 07:52] upgraded xf86-video-trident (1.3.6-2 -> 1.3.6-1)
+[2012-10-08 07:52] installed xf86-video-tseng (1.2.5-1)
+[2012-10-08 07:52] upgraded xf86-video-v4l (0.2.0-11 -> 0.2.0-10)
+[2012-10-08 07:52] upgraded xf86-video-vesa (2.3.2-2 -> 2.3.2-1)
+[2012-10-08 07:52] upgraded xf86-video-vmware (12.0.2-2 -> 12.0.2-1)
+[2012-10-08 07:52] upgraded xf86-video-voodoo (1.2.5-2 -> 1.2.5-1)
+[2012-10-08 07:52] upgraded xorg-bdftopcf (1.0.3-2 -> 1.0.3-2)
+[2012-10-08 07:52] installed xorg-docs (1.7-1)
+[2012-10-08 07:52] upgraded xorg-font-util (1.3.0-1 -> 1.3.0-1)
+[2012-10-08 07:52] upgraded xorg-fonts-encodings (1.0.4-3 -> 1.0.4-3)
+[2012-10-08 07:52] Updating font cache... done.
+[2012-10-08 07:52] installed xorg-fonts-100dpi (1.0.1-4)
+[2012-10-08 07:52] Updating font cache... done.
+[2012-10-08 07:52] installed xorg-fonts-75dpi (1.0.1-4)
+[2012-10-08 07:52] upgraded xorg-iceauth (1.0.5-1 -> 1.0.5-1)
+[2012-10-08 07:52] upgraded xorg-luit (1.1.1-1 -> 1.1.1-1)
+[2012-10-08 07:52] upgraded xorg-mkfontscale (1.1.0-1 -> 1.1.0-1)
+[2012-10-08 07:52] upgraded xorg-mkfontdir (1.0.7-1 -> 1.0.7-1)
+[2012-10-08 07:52] upgraded xorg-server (1.13.0-2 -> 1.12.4-1)
+[2012-10-08 07:52] upgraded xorg-sessreg (1.0.7-1 -> 1.0.7-1)
+[2012-10-08 07:52] upgraded xorg-setxkbmap (1.3.0-1 -> 1.3.0-1)
+[2012-10-08 07:52] installed xorg-smproxy (1.0.5-1)
+[2012-10-08 07:52] installed xorg-x11perf (1.5.4-1)
+[2012-10-08 07:52] upgraded xorg-xauth (1.0.7-1 -> 1.0.7-1)
+[2012-10-08 07:52] upgraded xorg-xbacklight (1.2.0-1 -> 1.2.0-1)
+[2012-10-08 07:52] upgraded xorg-xcmsdb (1.0.4-1 -> 1.0.4-1)
+[2012-10-08 07:52] installed xorg-xcursorgen (1.0.5-1)
+[2012-10-08 07:52] installed xf86dgaproto (2.1-2)
+[2012-10-08 07:52] installed libxxf86dga (1.1.3-1)
+[2012-10-08 07:52] installed dmxproto (2.3.1-2)
+[2012-10-08 07:52] installed libdmx (1.1.2-1)
+[2012-10-08 07:52] installed xorg-xdpyinfo (1.3.0-1)
+[2012-10-08 07:52] installed xorg-xdriinfo (1.0.4-3)
+[2012-10-08 07:52] installed xorg-xev (1.2.0-1)
+[2012-10-08 07:52] upgraded xorg-xgamma (1.0.5-1 -> 1.0.5-1)
+[2012-10-08 07:52] upgraded xorg-xhost (1.0.5-1 -> 1.0.5-1)
+[2012-10-08 07:52] upgraded xorg-xrandr (1.3.5-1 -> 1.3.5-1)
+[2012-10-08 07:52] upgraded xorg-xinput (1.6.0-1 -> 1.6.0-1)
+[2012-10-08 07:52] upgraded xorg-xkbcomp (1.2.4-1 -> 1.2.4-1)
+[2012-10-08 07:52] installed xorg-xkbevd (1.1.3-1)
+[2012-10-08 07:52] installed xorg-xkbutils (1.0.3-3)
+[2012-10-08 07:52] installed xorg-xkill (1.0.3-3)
+[2012-10-08 07:52] installed xorg-xlsatoms (1.1.1-1)
+[2012-10-08 07:52] installed xorg-xlsclients (1.1.2-2)
+[2012-10-08 07:52] upgraded xorg-xmodmap (1.0.7-1 -> 1.0.7-1)
+[2012-10-08 07:52] installed xorg-xpr (1.0.4-1)
+[2012-10-08 07:52] installed xorg-xprop (1.2.1-1)
+[2012-10-08 07:52] upgraded xorg-xrdb (1.0.9-2 -> 1.0.9-2)
+[2012-10-08 07:52] upgraded xorg-xrefresh (1.0.4-3 -> 1.0.4-3)
+[2012-10-08 07:52] upgraded xorg-xset (1.2.2-1 -> 1.2.2-1)
+[2012-10-08 07:52] upgraded xorg-xsetroot (1.1.0-3 -> 1.1.0-3)
+[2012-10-08 07:52] installed xorg-xvinfo (1.1.1-3)
+[2012-10-08 07:52] installed xorg-xwd (1.0.5-2)
+[2012-10-08 07:52] installed xorg-xwininfo (1.1.2-1)
+[2012-10-08 07:52] installed xorg-xwud (1.0.4-1)
+[2012-10-08 07:55] Running 'pacman -Sy'
+[2012-10-08 07:55] synchronizing package lists
+[2012-10-08 07:55] Running 'pacman -Sy'
+[2012-10-08 07:55] synchronizing package lists
+[2012-10-08 07:55] Running 'pacman -Sy'
+[2012-10-08 07:55] synchronizing package lists
+[2012-10-08 07:57] Running 'pacman -U /var/cache/pacman/pkg/google-chrome-dev-24.0.1284.2-1-x86_64.pkg.tar.xz'
+[2012-10-08 08:08] upgraded google-chrome-dev (23.0.1271.10-1 -> 24.0.1284.2-1)
+[2012-10-08 08:09] Running 'pacman -S xf86-input-wacom'
+[2012-10-08 08:09] Running 'pacman -S testing/xf86-input-wacom'
+[2012-10-08 08:10] Running 'pacman -S xorg-server'
+[2012-10-08 08:10] upgraded xorg-server (1.12.4-1 -> 1.13.0-2)
+[2012-10-08 08:10] Running 'pacman -S xf86-input-wacom'
+[2012-10-08 08:10] installed xf86-input-wacom (0.17.0-2)
+[2012-10-08 08:12] Running 'pacman -R xorg'
+[2012-10-08 08:13] Running 'pacman -Rs xorg'
+[2012-10-08 08:14] Running 'pacman -Syy'
+[2012-10-08 08:14] synchronizing package lists
+[2012-10-08 08:14] Running 'pacman -Syu'
+[2012-10-08 08:14] synchronizing package lists
+[2012-10-08 08:14] starting full system upgrade
+[2012-10-08 08:16] Running 'pacman -Rs xorg-server'
+[2012-10-08 08:16] removed xorg-server (1.13.0-2)
+[2012-10-08 08:16] removed xorg-server-common (1.12.4-1)
+[2012-10-08 08:16] removed xorg-setxkbmap (1.3.0-1)
+[2012-10-08 08:17] Updating font cache... done.
+[2012-10-08 08:17] removed xorg-fonts-misc (1.0.1-2)
+[2012-10-08 08:17] removed xkeyboard-config (2.7-1)
+[2012-10-08 08:17] removed xorg-xkbcomp (1.2.4-1)
+[2012-10-08 08:17] removed xf86-input-evdev (2.7.3-1)
+[2012-10-08 08:17] Running 'pacman -Rs xf86'
+[2012-10-08 08:17] Running 'pacman -Rs xorg'
+[2012-10-08 08:18] Running 'pacman -Rs xorg-font-utils'
+[2012-10-08 08:18] Running 'pacman -Rs gimp'
+[2012-10-08 08:18] removed gimp (2.8.2-1)
+[2012-10-08 08:18] removed libwmf (0.2.8.4-9)
+[2012-10-08 08:18] Updating font cache... done.
+[2012-10-08 08:18] removed gsfonts (1.0.7pre44-3)
+[2012-10-08 08:18] removed librsvg (2.36.3-1)
+[2012-10-08 08:18] removed libcroco (0.6.5-1)
+[2012-10-08 08:18] removed jasper (1.900.1-7)
+[2012-10-08 08:18] removed freeglut (2.8.0-1)
+[2012-10-08 08:18] removed gegl (0.2.0-3)
+[2012-10-08 08:18] removed babl (0.1.10-1)
+[2012-10-08 08:18] Running 'pacman -Rs xorg-font-utils'
+[2012-10-08 08:19] Running 'pacman -Rs xorg-font-75dpi'
+[2012-10-08 08:19] Running 'pacman -Rs xorg-fonts-75dpi'
+[2012-10-08 08:19] Updating font cache... done.
+[2012-10-08 08:19] removed xorg-fonts-75dpi (1.0.1-4)
+[2012-10-08 08:19] Running 'pacman -Rs xorg-fonts-100dpi'
+[2012-10-08 08:19] Updating font cache... done.
+[2012-10-08 08:19] removed xorg-fonts-100dpi (1.0.1-4)
+[2012-10-08 08:19] removed xorg-fonts-alias (1.0.2-2)
+[2012-10-08 08:19] removed xorg-font-utils (7.6-3)
+[2012-10-08 08:19] removed xorg-font-util (1.3.0-1)
+[2012-10-08 08:19] removed xorg-bdftopcf (1.0.3-2)
+[2012-10-08 08:19] removed libxfont (1.4.5-1)
+[2012-10-08 08:19] Running 'pacman -Rs xorg-font-utils'
+[2012-10-08 08:19] Running 'pacman -Rs xorg'
+[2012-10-08 08:19] Running 'pacman -Rs xorg-utils'
+[2012-10-08 08:19] Running 'pacman -Rs xorg-server-utils'
+[2012-10-08 08:19] Running 'pacman -Rs catacomb-snatch'
+[2012-10-08 08:19] removed catacomb-snatch (1.1.0-297)
+[2012-10-08 08:20] Running 'pacman -Rs xorg-server-utils'
+[2012-10-08 08:20] removed xorg-server-utils (7.6-3)
+[2012-10-08 08:20] removed xorg-xsetroot (1.1.0-3)
+[2012-10-08 08:20] removed xorg-xrefresh (1.0.4-3)
+[2012-10-08 08:20] removed xorg-xrdb (1.0.9-2)
+[2012-10-08 08:20] removed mcpp (2.7.2-4)
+[2012-10-08 08:20] removed xorg-xmodmap (1.0.7-1)
+[2012-10-08 08:20] removed xorg-xinput (1.6.0-1)
+[2012-10-08 08:20] removed xorg-xrandr (1.3.5-1)
+[2012-10-08 08:20] removed xorg-xhost (1.0.5-1)
+[2012-10-08 08:20] removed xorg-xgamma (1.0.5-1)
+[2012-10-08 08:20] removed xorg-xcmsdb (1.0.4-1)
+[2012-10-08 08:20] removed xorg-xbacklight (1.2.0-1)
+[2012-10-08 08:20] removed xorg-sessreg (1.0.7-1)
+[2012-10-08 08:20] removed xorg-iceauth (1.0.5-1)
+[2012-10-08 08:20] Running 'pacman -Rs xorg'
+[2012-10-08 08:20] Running 'pacman -Rs gksu'
+[2012-10-08 08:20] removed gksu (2.0.2-4)
+[2012-10-08 08:20] removed libgksu (2.0.12-5)
+[2012-10-08 08:20] removed libgtop (2.28.4-1)
+[2012-10-08 08:20] removed libgnome-keyring (3.4.1-1)
+[2012-10-08 08:20] Running 'pacman -Rs chromium'
+[2012-10-08 08:20] removed chromium (22.0.1229.79-2)
+[2012-10-08 08:21] Running 'pacman -Rs google-chrome-dev'
+[2012-10-08 08:21] removed google-chrome-dev (24.0.1284.2-1)
+[2012-10-08 08:21] removed ttf-dejavu (2.33-3)
+[2012-10-08 08:21] removed xorg-mkfontdir (1.0.7-1)
+[2012-10-08 08:21] removed xorg-mkfontscale (1.1.0-1)
+[2012-10-08 08:21] removed xorg-fonts-encodings (1.0.4-3)
+[2012-10-08 08:21] removed gconf (3.2.5-2)
+[2012-10-08 08:21] removed gtk3 (3.4.4-1)
+[2012-10-08 08:21] removed colord (0.1.21-2)
+[2012-10-08 08:21] removed shared-color-profiles (0.1.5-1)
+[2012-10-08 08:21] removed sane (1.0.23-1)
+[2012-10-08 08:21] removed net-snmp (5.7.1-4)
+[2012-10-08 08:21] removed libieee1284 (0.2.11-4)
+[2012-10-08 08:21] removed libgphoto2 (2.4.14-1)
+[2012-10-08 08:21] removed gd (2.0.36RC1-5)
+[2012-10-08 08:21] removed libusb-compat (0.1.4-2)
+[2012-10-08 08:21] removed polkit (0.105-1)
+[2012-10-08 08:21] removed libgusb (0.1.3-1)
+[2012-10-08 08:21] Running 'pacman -Rs xorg'
+[2012-10-08 08:22] Running 'pacman -Rdd xorg'
+[2012-10-08 08:22] removed xorg-xwud (1.0.4-1)
+[2012-10-08 08:22] removed xorg-xwininfo (1.1.2-1)
+[2012-10-08 08:22] removed xorg-xwd (1.0.5-2)
+[2012-10-08 08:22] removed xorg-xvinfo (1.1.1-3)
+[2012-10-08 08:22] removed xorg-xset (1.2.2-1)
+[2012-10-08 08:22] removed xorg-xprop (1.2.1-1)
+[2012-10-08 08:22] removed xorg-xpr (1.0.4-1)
+[2012-10-08 08:22] removed xorg-xlsclients (1.1.2-2)
+[2012-10-08 08:22] removed xorg-xlsatoms (1.1.1-1)
+[2012-10-08 08:22] removed xorg-xkill (1.0.3-3)
+[2012-10-08 08:22] removed xorg-xkbutils (1.0.3-3)
+[2012-10-08 08:22] removed xorg-xkbevd (1.1.3-1)
+[2012-10-08 08:22] removed xorg-xev (1.2.0-1)
+[2012-10-08 08:22] removed xorg-xdriinfo (1.0.4-3)
+[2012-10-08 08:22] removed xorg-xdpyinfo (1.3.0-1)
+[2012-10-08 08:22] removed xorg-xcursorgen (1.0.5-1)
+[2012-10-08 08:22] removed xorg-xauth (1.0.7-1)
+[2012-10-08 08:22] removed xorg-x11perf (1.5.4-1)
+[2012-10-08 08:22] removed xorg-smproxy (1.0.5-1)
+[2012-10-08 08:22] removed xorg-luit (1.1.1-1)
+[2012-10-08 08:22] removed xorg-docs (1.7-1)
+[2012-10-08 08:22] removed xf86-video-voodoo (1.2.5-1)
+[2012-10-08 08:22] removed xf86-video-vmware (12.0.2-1)
+[2012-10-08 08:22] removed xf86-video-vesa (2.3.2-1)
+[2012-10-08 08:22] removed xf86-video-v4l (0.2.0-10)
+[2012-10-08 08:22] removed xf86-video-tseng (1.2.5-1)
+[2012-10-08 08:22] removed xf86-video-trident (1.3.6-1)
+[2012-10-08 08:22] removed xf86-video-tdfx (1.4.5-1)
+[2012-10-08 08:22] removed xf86-video-sisusb (0.9.6-1)
+[2012-10-08 08:22] removed xf86-video-sis (0.10.7-1)
+[2012-10-08 08:22] removed xf86-video-siliconmotion (1.7.7-1)
+[2012-10-08 08:22] removed xf86-video-savage (2.3.6-1)
+[2012-10-08 08:22] removed xf86-video-s3virge (1.10.6-1)
+[2012-10-08 08:22] removed xf86-video-s3 (0.6.5-1)
+[2012-10-08 08:22] removed xf86-video-rendition (4.2.5-1)
+[2012-10-08 08:22] removed xf86-video-r128 (6.9.1-1)
+[2012-10-08 08:22] removed xf86-video-nv (2.1.20-1)
+[2012-10-08 08:22] removed xf86-video-neomagic (1.2.7-1)
+[2012-10-08 08:22] removed xf86-video-mga (1.6.2-1)
+[2012-10-08 08:22] removed xf86-video-mach64 (6.9.3-1)
+[2012-10-08 08:22] removed xf86-video-intel (2.20.9-1)
+[2012-10-08 08:22] removed xf86-video-i740 (1.3.4-1)
+[2012-10-08 08:22] removed xf86-video-i128 (1.3.6-1)
+[2012-10-08 08:22] removed xf86-video-glint (1.2.8-1)
+[2012-10-08 08:22] removed xf86-video-fbdev (0.4.3-1)
+[2012-10-08 08:22] removed xf86-video-dummy (0.3.6-1)
+[2012-10-08 08:22] removed xf86-video-cirrus (1.5.1-1)
+[2012-10-08 08:22] removed xf86-video-chips (1.2.5-1)
+[2012-10-08 08:22] removed xf86-video-ati (1:6.14.6-1)
+[2012-10-08 08:22] removed xf86-video-ast (0.97.0-1)
+[2012-10-08 08:22] removed xf86-video-ark (0.7.5-1)
+[2012-10-08 08:22] removed xf86-video-apm (1.2.5-1)
+[2012-10-08 08:22] removed xf86-input-void (1.4.0-3)
+[2012-10-08 08:22] removed xf86-input-vmmouse (12.9.0-1)
+[2012-10-08 08:22] removed xf86-input-synaptics (1.6.2-1)
+[2012-10-08 08:22] removed xf86-input-mouse (1.8.1-1)
+[2012-10-08 08:22] removed xf86-input-keyboard (1.6.2-1)
+[2012-10-08 08:22] removed xf86-input-joystick (1.6.1-1)
+[2012-10-08 08:22] removed xf86-input-aiptek (1.4.1-3)
+[2012-10-08 08:22] removed xf86-input-acecad (1.5.0-3)
+[2012-10-08 08:23] Running 'pacman -S /testing/xorg'
+[2012-10-08 08:23] Running 'pacman -Syy'
+[2012-10-08 08:23] synchronizing package lists
+[2012-10-08 08:23] Running 'pacman -S xorg'
+[2012-10-08 08:24] installed xf86-input-evdev (2.7.3-2)
+[2012-10-08 08:24] installed xf86-input-joystick (1.6.1-2)
+[2012-10-08 08:24] installed xf86-input-keyboard (1.6.2-2)
+[2012-10-08 08:24] installed xf86-input-mouse (1.8.1-2)
+[2012-10-08 08:24] installed xf86-input-synaptics (1.6.2-2)
+[2012-10-08 08:24] installed xf86-input-vmmouse (12.9.0-2)
+[2012-10-08 08:24] installed xf86-input-void (1.4.0-4)
+[2012-10-08 08:24] installed xf86-video-ark (0.7.5-2)
+[2012-10-08 08:24] installed xf86-video-ast (0.97.0-2)
+[2012-10-08 08:24] installed xf86-video-ati (1:6.14.6-2)
+[2012-10-08 08:24] installed xf86-video-cirrus (1.5.1-2)
+[2012-10-08 08:24] installed xf86-video-dummy (0.3.6-2)
+[2012-10-08 08:24] installed xf86-video-fbdev (0.4.3-2)
+[2012-10-08 08:24] installed xf86-video-glint (1.2.8-2)
+[2012-10-08 08:24] installed xf86-video-i128 (1.3.6-2)
+[2012-10-08 08:24] >>> This driver now allows to switch
+[2012-10-08 08:24] >>> between sna/uxa acceleration methods.
+[2012-10-08 08:24] >>> Add to the device section in /etc/X11/xorg.conf
+[2012-10-08 08:24] >>>   Option "AccelMethod" "sna"
+[2012-10-08 08:24] >>> use uxa method if you run into trouble with sna.
+[2012-10-08 08:24] installed xf86-video-intel (2.20.9-2)
+[2012-10-08 08:24] installed xf86-video-mach64 (6.9.3-2)
+[2012-10-08 08:24] installed xf86-video-mga (1.6.2-2)
+[2012-10-08 08:24] installed xf86-video-neomagic (1.2.7-2)
+[2012-10-08 08:24] installed xf86-video-openchrome (0.3.1-2)
+[2012-10-08 08:24] installed xf86-video-r128 (6.9.1-2)
+[2012-10-08 08:24] installed xf86-video-savage (2.3.6-2)
+[2012-10-08 08:24] installed xf86-video-siliconmotion (1.7.7-2)
+[2012-10-08 08:24] installed xf86-video-sis (0.10.7-2)
+[2012-10-08 08:24] installed xf86-video-tdfx (1.4.5-2)
+[2012-10-08 08:24] installed xf86-video-trident (1.3.6-2)
+[2012-10-08 08:24] installed xf86-video-v4l (0.2.0-11)
+[2012-10-08 08:24] installed xf86-video-vesa (2.3.2-2)
+[2012-10-08 08:24] installed xf86-video-vmware (12.0.2-2)
+[2012-10-08 08:24] installed xf86-video-voodoo (1.2.5-2)
+[2012-10-08 08:24] installed libxfont (1.4.5-1)
+[2012-10-08 08:24] installed xorg-xkbcomp (1.2.4-1)
+[2012-10-08 08:24] installed xkeyboard-config (2.7-1)
+[2012-10-08 08:24] installed xorg-setxkbmap (1.3.0-1)
+[2012-10-08 08:24] installed xorg-fonts-encodings (1.0.4-3)
+[2012-10-08 08:24] installed xorg-fonts-alias (1.0.2-2)
+[2012-10-08 08:24] installed xorg-bdftopcf (1.0.3-2)
+[2012-10-08 08:24] installed xorg-mkfontscale (1.1.0-1)
+[2012-10-08 08:24] installed xorg-mkfontdir (1.0.7-1)
+[2012-10-08 08:24] installed xorg-font-util (1.3.0-1)
+[2012-10-08 08:24] installed xorg-font-utils (7.6-3)
+[2012-10-08 08:24] Updating font cache... done.
+[2012-10-08 08:24] installed xorg-fonts-misc (1.0.1-2)
+[2012-10-08 08:24] installed xorg-server-common (1.13.0-2)
+[2012-10-08 08:24] installed xorg-server (1.13.0-2)
+[2012-10-08 08:24] installed xf86-input-acecad (1.5.0-3)
+[2012-10-08 08:24] installed xf86-input-aiptek (1.4.1-3)
+[2012-10-08 08:24] installed xf86-video-apm (1.2.5-1)
+[2012-10-08 08:24] installed xf86-video-chips (1.2.5-1)
+[2012-10-08 08:24] installed xf86-video-i740 (1.3.4-1)
+[2012-10-08 08:24] installed xf86-video-nv (2.1.20-1)
+[2012-10-08 08:24] installed xf86-video-rendition (4.2.5-1)
+[2012-10-08 08:24] installed xf86-video-s3 (0.6.5-1)
+[2012-10-08 08:24] installed xf86-video-s3virge (1.10.6-1)
+[2012-10-08 08:24] installed xf86-video-sisusb (0.9.6-1)
+[2012-10-08 08:24] installed xf86-video-tseng (1.2.5-1)
+[2012-10-08 08:24] installed xorg-docs (1.7-1)
+[2012-10-08 08:24] Updating font cache... done.
+[2012-10-08 08:24] installed xorg-fonts-100dpi (1.0.1-4)
+[2012-10-08 08:24] Updating font cache... done.
+[2012-10-08 08:24] installed xorg-fonts-75dpi (1.0.1-4)
+[2012-10-08 08:24] installed xorg-iceauth (1.0.5-1)
+[2012-10-08 08:24] installed xorg-luit (1.1.1-1)
+[2012-10-08 08:24] installed xorg-sessreg (1.0.7-1)
+[2012-10-08 08:24] installed xorg-smproxy (1.0.5-1)
+[2012-10-08 08:24] installed xorg-x11perf (1.5.4-1)
+[2012-10-08 08:24] installed xorg-xauth (1.0.7-1)
+[2012-10-08 08:24] installed xorg-xbacklight (1.2.0-1)
+[2012-10-08 08:24] installed xorg-xcmsdb (1.0.4-1)
+[2012-10-08 08:24] installed xorg-xcursorgen (1.0.5-1)
+[2012-10-08 08:24] installed xorg-xdpyinfo (1.3.0-1)
+[2012-10-08 08:24] installed xorg-xdriinfo (1.0.4-3)
+[2012-10-08 08:24] installed xorg-xev (1.2.0-1)
+[2012-10-08 08:24] installed xorg-xgamma (1.0.5-1)
+[2012-10-08 08:24] installed xorg-xhost (1.0.5-1)
+[2012-10-08 08:24] installed xorg-xrandr (1.3.5-1)
+[2012-10-08 08:24] installed xorg-xinput (1.6.0-1)
+[2012-10-08 08:24] installed xorg-xkbevd (1.1.3-1)
+[2012-10-08 08:24] installed xorg-xkbutils (1.0.3-3)
+[2012-10-08 08:24] installed xorg-xkill (1.0.3-3)
+[2012-10-08 08:24] installed xorg-xlsatoms (1.1.1-1)
+[2012-10-08 08:24] installed xorg-xlsclients (1.1.2-2)
+[2012-10-08 08:24] installed xorg-xmodmap (1.0.7-1)
+[2012-10-08 08:24] installed xorg-xpr (1.0.4-1)
+[2012-10-08 08:24] installed xorg-xprop (1.2.1-1)
+[2012-10-08 08:24] installed mcpp (2.7.2-4)
+[2012-10-08 08:24] installed xorg-xrdb (1.0.9-2)
+[2012-10-08 08:24] installed xorg-xrefresh (1.0.4-3)
+[2012-10-08 08:24] installed xorg-xset (1.2.2-1)
+[2012-10-08 08:24] installed xorg-xsetroot (1.1.0-3)
+[2012-10-08 08:24] installed xorg-xvinfo (1.1.1-3)
+[2012-10-08 08:24] installed xorg-xwd (1.0.5-2)
+[2012-10-08 08:24] installed xorg-xwininfo (1.1.2-1)
+[2012-10-08 08:24] installed xorg-xwud (1.0.4-1)
+[2012-10-08 08:44] Running 'pacman -S --asdeps gconf ttf-dejavu'
+[2012-10-08 08:44] installed js (1.8.5-3)
+[2012-10-08 08:44] installed polkit (0.107-2)
+[2012-10-08 08:44] installed libgusb (0.1.3-1)
+[2012-10-08 08:44] installed libusb-compat (0.1.4-2)
+[2012-10-08 08:44] installed gd (2.0.36RC1-5)
+[2012-10-08 08:44] installed libgphoto2 (2.4.14-1)
+[2012-10-08 08:44] installed libieee1284 (0.2.11-4)
+[2012-10-08 08:44] installed net-snmp (5.7.1-4)
+[2012-10-08 08:44] NOTE
+[2012-10-08 08:44] ----
+[2012-10-08 08:44] Add your user to group 'scanner' to use scanner devices.
+[2012-10-08 08:44] installed sane (1.0.23-1)
+[2012-10-08 08:44] installed shared-color-profiles (0.1.5-1)
+[2012-10-08 08:44] installed colord (0.1.21-2)
+[2012-10-08 08:45] installed gtk3 (3.4.4-1)
+[2012-10-08 08:45] installed gconf (3.2.5-2)
+[2012-10-08 08:45] installed ttf-dejavu (2.33-3)
+[2012-10-08 08:45] Running 'pacman -Sy'
+[2012-10-08 08:45] synchronizing package lists
+[2012-10-08 08:45] Running 'pacman -Sy'
+[2012-10-08 08:45] synchronizing package lists
+[2012-10-08 08:45] Running 'pacman -Sy'
+[2012-10-08 08:45] synchronizing package lists
+[2012-10-08 08:45] Running 'pacman -Sy'
+[2012-10-08 08:45] synchronizing package lists
+[2012-10-08 08:48] Running 'pacman -U /var/cache/pacman/pkg/google-chrome-dev-24.0.1284.2-1-x86_64.pkg.tar.xz'
+[2012-10-08 08:48] installed google-chrome-dev (24.0.1284.2-1)
+[2012-10-08 12:02] Running 'pacman -S libreoffice-en-US'
+[2012-10-08 12:02] installed libreoffice-en-US (3.6.2-2)
+[2012-10-08 12:34] Running 'pacman -S gimp'
+[2012-10-08 12:36] Running 'pacman -S gimp'
+[2012-10-08 12:37] Running 'pacman -Syy'
+[2012-10-08 12:37] synchronizing package lists
+[2012-10-08 12:37] Running 'pacman -Syu'
+[2012-10-08 12:37] synchronizing package lists
+[2012-10-08 12:37] starting full system upgrade
+[2012-10-08 13:08] Running 'pacman -Syy'
+[2012-10-08 13:08] synchronizing package lists
+[2012-10-08 13:08] Running 'pacman -Syu'
+[2012-10-08 13:08] synchronizing package lists
+[2012-10-08 13:08] starting full system upgrade
+[2012-10-08 15:55] Running 'pacman -S Libreoffice'
+[2012-10-08 15:55] Running 'pacman -S Libreoffice-write'
+[2012-10-08 15:55] Running 'pacman -S Libreoffice-writer'
+[2012-10-08 15:55] Running 'pacman -S libreoffice'
+[2012-10-10 09:59] Running 'pacman -Syy'
+[2012-10-10 09:59] synchronizing package lists
+[2012-10-10 09:59] Running 'pacman -Syy'
+[2012-10-10 09:59] synchronizing package lists
+[2012-10-10 09:59] Running 'pacman -Syy'
+[2012-10-10 09:59] synchronizing package lists
+[2012-10-10 09:59] Running 'pacman -Syu'
+[2012-10-10 09:59] synchronizing package lists
+[2012-10-10 09:59] starting full system upgrade
+[2012-10-10 10:03] Running 'pacman -Syu'
+[2012-10-10 10:03] synchronizing package lists
+[2012-10-10 10:03] starting full system upgrade
+[2012-10-10 10:04] upgraded libglapi (8.0.4-3 -> 9.0-1)
+[2012-10-10 10:04] upgraded gcc-libs (4.7.1-6 -> 4.7.2-1)
+[2012-10-10 10:04] upgraded libgl (8.99.git_20121006-1 -> 9.0-1)
+[2012-10-10 10:04] upgraded ati-dri (8.99.git_20121006-1 -> 9.0-1)
+[2012-10-10 10:04] upgraded cairo (1.12.2-3 -> 1.12.4-1)
+[2012-10-10 10:04] upgraded firefox (15.0.1-1 -> 16.0-1)
+[2012-10-10 10:04] upgraded xcb-proto (1.7.1-1 -> 1.8-1)
+[2012-10-10 10:04] upgraded libxcb (1.8.1-1 -> 1.9-1)
+[2012-10-10 10:04] upgraded mesa (8.0.4-3 -> 9.0-1)
+[2012-10-10 10:04] installed glu (9.0.0-1)
+[2012-10-10 10:04] upgraded fox (1.6.46-1 -> 1.6.46-2)
+[2012-10-10 10:04] upgraded gcc (4.7.1-6 -> 4.7.2-1)
+[2012-10-10 10:04] ==> Unregistering cabalized packages...
+[2012-10-10 10:04] unregistering mtl-2.1.1 would break the following packages: parsec-3.1.2 (ignoring)
+[2012-10-10 10:04] ==> Done.
+[2012-10-10 10:04] ==> All cabalized packages need to be reinstalled now.
+[2012-10-10 10:04] ==> See /usr/share/haskell/ and ghc-pkg list --user for a tentative list of affected packages.
+[2012-10-10 10:04] upgraded ghc (7.4.2-1 -> 7.6.1-1)
+[2012-10-10 10:04] ghc-pkg: cannot find package transformers-0.3.0.0
+[2012-10-10 10:04] Reading package info from stdin ... done.
+[2012-10-10 10:04] Warning: Cannot read ../ansi-terminal/ansi-terminal.haddock:
+[2012-10-10 10:04]    Interface file is of wrong version: ../ansi-terminal/ansi-terminal.haddock
+[2012-10-10 10:04] Skipping this interface.
+[2012-10-10 10:04] Warning: Cannot read ../curl/curl.haddock:
+[2012-10-10 10:04]    Interface file is of wrong version: ../curl/curl.haddock
+[2012-10-10 10:04] Skipping this interface.
+[2012-10-10 10:04] Warning: Cannot read ../mtl/mtl.haddock:
+[2012-10-10 10:04]    Interface file is of wrong version: ../mtl/mtl.haddock
+[2012-10-10 10:04] Skipping this interface.
+[2012-10-10 10:04] Warning: Cannot read ../parsec/parsec.haddock:
+[2012-10-10 10:04]    Interface file is of wrong version: ../parsec/parsec.haddock
+[2012-10-10 10:04] Skipping this interface.
+[2012-10-10 10:04] Warning: Cannot read ../text/text.haddock:
+[2012-10-10 10:04]    Interface file is of wrong version: ../text/text.haddock
+[2012-10-10 10:04] Skipping this interface.
+[2012-10-10 10:04] upgraded haskell-transformers (0.3.0.0-1 -> 0.3.0.0-2)
+[2012-10-10 10:04] ghc-pkg: cannot find package mtl-2.1.1
+[2012-10-10 10:04] Reading package info from stdin ... done.
+[2012-10-10 10:04] Warning: Cannot read ../ansi-terminal/ansi-terminal.haddock:
+[2012-10-10 10:04]    Interface file is of wrong version: ../ansi-terminal/ansi-terminal.haddock
+[2012-10-10 10:04] Skipping this interface.
+[2012-10-10 10:04] Warning: Cannot read ../curl/curl.haddock:
+[2012-10-10 10:04]    Interface file is of wrong version: ../curl/curl.haddock
+[2012-10-10 10:04] Skipping this interface.
+[2012-10-10 10:04] Warning: Cannot read ../parsec/parsec.haddock:
+[2012-10-10 10:04]    Interface file is of wrong version: ../parsec/parsec.haddock
+[2012-10-10 10:04] Skipping this interface.
+[2012-10-10 10:04] Warning: Cannot read ../text/text.haddock:
+[2012-10-10 10:04]    Interface file is of wrong version: ../text/text.haddock
+[2012-10-10 10:04] Skipping this interface.
+[2012-10-10 10:04] upgraded haskell-mtl (2.1.1-1 -> 2.1.2-1)
+[2012-10-10 10:04] ghc-pkg: cannot find package text-0.11.2.1
+[2012-10-10 10:04] Reading package info from stdin ... done.
+[2012-10-10 10:04] Warning: Cannot read ../ansi-terminal/ansi-terminal.haddock:
+[2012-10-10 10:04]    Interface file is of wrong version: ../ansi-terminal/ansi-terminal.haddock
+[2012-10-10 10:04] Skipping this interface.
+[2012-10-10 10:04] Warning: Cannot read ../curl/curl.haddock:
+[2012-10-10 10:04]    Interface file is of wrong version: ../curl/curl.haddock
+[2012-10-10 10:04] Skipping this interface.
+[2012-10-10 10:04] Warning: Cannot read ../parsec/parsec.haddock:
+[2012-10-10 10:04]    Interface file is of wrong version: ../parsec/parsec.haddock
+[2012-10-10 10:04] Skipping this interface.
+[2012-10-10 10:04] upgraded haskell-text (0.11.2.1-1 -> 0.11.2.3-1)
+[2012-10-10 10:04] ghc-pkg: cannot find package parsec-3.1.2
+[2012-10-10 10:04] Reading package info from stdin ... done.
+[2012-10-10 10:04] Warning: Cannot read ../ansi-terminal/ansi-terminal.haddock:
+[2012-10-10 10:04]    Interface file is of wrong version: ../ansi-terminal/ansi-terminal.haddock
+[2012-10-10 10:04] Skipping this interface.
+[2012-10-10 10:04] Warning: Cannot read ../curl/curl.haddock:
+[2012-10-10 10:04]    Interface file is of wrong version: ../curl/curl.haddock
+[2012-10-10 10:04] Skipping this interface.
+[2012-10-10 10:04] upgraded haskell-parsec (3.1.2-2 -> 3.1.3-1)
+[2012-10-10 10:04] warning: /etc/rc.conf installed as /etc/rc.conf.pacnew
+[2012-10-10 10:04] ----
+[2012-10-10 10:04] > systemd no longer reads MODULES from rc.conf.
+[2012-10-10 10:04] ----
+[2012-10-10 10:04] upgraded initscripts (2012.09.2-2 -> 2012.10.1-1)
+[2012-10-10 10:04] upgraded intel-dri (8.99.git_20121006-1 -> 9.0-1)
+[2012-10-10 10:04] upgraded iputils (20101006-4 -> 20101006-7)
+[2012-10-10 10:04] upgraded khrplatform-devel (8.0.4-3 -> 9.0-1)
+[2012-10-10 10:04] upgraded lib32-gcc-libs (4.7.1-6 -> 4.7.2-1)
+[2012-10-10 10:04] upgraded lib32-libxcb (1.8.1-2 -> 1.9-1)
+[2012-10-10 10:04] upgraded libgbm (8.0.4-3 -> 9.0-1)
+[2012-10-10 10:04] upgraded libegl (8.0.4-3 -> 9.0-1)
+[2012-10-10 10:04] upgraded libltdl (2.4.2-6 -> 2.4.2-7)
+[2012-10-10 10:04] upgraded libtool (2.4.2-6 -> 2.4.2-7)
+[2012-10-10 10:04] upgraded libva (1.1.0-1 -> 1.1.0-2)
+[2012-10-10 10:04] >>> Updating module dependencies. Please wait ...
+[2012-10-10 10:04] >>> Generating initial ramdisk, using mkinitcpio.  Please wait...
+[2012-10-10 10:04] ==> Building image from preset: 'default'
+[2012-10-10 10:04]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2012-10-10 10:04] ==> Starting build: 3.6.1-1-ARCH
+[2012-10-10 10:04]   -> Running build hook: [base]
+[2012-10-10 10:04]   -> Running build hook: [udev]
+[2012-10-10 10:04]   -> Running build hook: [autodetect]
+[2012-10-10 10:04]   -> Running build hook: [pata]
+[2012-10-10 10:04]   -> Running build hook: [scsi]
+[2012-10-10 10:04]   -> Running build hook: [sata]
+[2012-10-10 10:04]   -> Running build hook: [filesystems]
+[2012-10-10 10:04]   -> Running build hook: [usbinput]
+[2012-10-10 10:04]   -> Running build hook: [fsck]
+[2012-10-10 10:04] ==> Generating module dependencies
+[2012-10-10 10:04] ==> Creating gzip initcpio image: /boot/initramfs-linux.img
+[2012-10-10 10:04] ==> Image generation successful
+[2012-10-10 10:04] ==> Building image from preset: 'fallback'
+[2012-10-10 10:04]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2012-10-10 10:04] ==> Starting build: 3.6.1-1-ARCH
+[2012-10-10 10:04]   -> Running build hook: [base]
+[2012-10-10 10:04]   -> Running build hook: [udev]
+[2012-10-10 10:04]   -> Running build hook: [pata]
+[2012-10-10 10:04]   -> Running build hook: [scsi]
+[2012-10-10 10:04]   -> Running build hook: [sata]
+[2012-10-10 10:04]   -> Running build hook: [filesystems]
+[2012-10-10 10:04]   -> Running build hook: [usbinput]
+[2012-10-10 10:04]   -> Running build hook: [fsck]
+[2012-10-10 10:04] ==> Generating module dependencies
+[2012-10-10 10:04] ==> Creating gzip initcpio image: /boot/initramfs-linux-fallback.img
+[2012-10-10 10:05] ==> Image generation successful
+[2012-10-10 10:05] upgraded linux (3.5.6-1 -> 3.6.1-1)
+[2012-10-10 10:05] upgraded linux-api-headers (3.5.1-1 -> 3.5.5-1)
+[2012-10-10 10:05] upgraded linux-headers (3.5.6-1 -> 3.6.1-1)
+[2012-10-10 10:05] upgraded svga-dri (8.99.git_20121006-1 -> 9.0-1)
+[2012-10-10 10:05] upgraded swt (4.2-1 -> 4.2-2)
+[2012-10-10 10:05] upgraded xf86-input-acecad (1.5.0-3 -> 1.5.0-5)
+[2012-10-10 10:05] upgraded xf86-input-aiptek (1.4.1-3 -> 1.4.1-5)
+[2012-10-10 10:05] upgraded xf86-video-apm (1.2.5-1 -> 1.2.5-2)
+[2012-10-10 10:05] upgraded xf86-video-chips (1.2.5-1 -> 1.2.5-2)
+[2012-10-10 10:05] upgraded xf86-video-i740 (1.3.4-1 -> 1.3.4-2)
+[2012-10-10 10:05] upgraded xf86-video-rendition (4.2.5-1 -> 4.2.5-2)
+[2012-10-10 10:05] upgraded xf86-video-s3 (0.6.5-1 -> 0.6.5-2)
+[2012-10-10 10:05] upgraded xf86-video-s3virge (1.10.6-1 -> 1.10.6-2)
+[2012-10-10 10:05] upgraded xf86-video-sisusb (0.9.6-1 -> 0.9.6-2)
+[2012-10-10 10:05] upgraded xf86-video-tseng (1.2.5-1 -> 1.2.5-2)
+[2012-10-10 10:05] installed xf86driproto (2.1.1-2)
+[2012-10-10 10:05] upgraded xorg-server-devel (1.12.4-1 -> 1.13.0-2)
+[2012-10-10 10:05] Running 'pacman -Syy'
+[2012-10-10 10:05] synchronizing package lists
+[2012-10-10 10:05] Running 'pacman -Syy'
+[2012-10-10 10:05] synchronizing package lists
+[2012-10-10 10:05] Running 'pacman -Syu'
+[2012-10-10 10:05] synchronizing package lists
+[2012-10-10 10:05] starting full system upgrade
+[2012-10-10 13:44] Running 'pacman -Syy'
+[2012-10-10 13:44] synchronizing package lists
+[2012-10-10 13:44] Running 'pacman -Syu'
+[2012-10-10 13:44] synchronizing package lists
+[2012-10-10 13:44] starting full system upgrade
+[2012-10-10 14:15] Running 'pacman -Syy'
+[2012-10-10 14:15] synchronizing package lists
+[2012-10-10 14:16] Running 'pacman -Suu'
+[2012-10-10 14:16] starting full system upgrade
+[2012-10-10 14:17] Running 'pacman -Rs glu'
+[2012-10-10 14:18] Running 'pacman -Rs fox'
+[2012-10-10 14:18] removed fox (1.6.46-2)
+[2012-10-10 14:18] removed glu (9.0.0-1)
+[2012-10-10 14:18] Running 'pacman -Rs glu'
+[2012-10-10 14:18] Running 'pacman -Suu'
+[2012-10-10 14:18] starting full system upgrade
+[2012-10-10 14:18] upgraded libglapi (9.0-1 -> 8.0.4-3)
+[2012-10-10 14:18] upgraded libgl (9.0-1 -> 8.0.4-3)
+[2012-10-10 14:18] upgraded ati-dri (9.0-1 -> 8.0.4-3)
+[2012-10-10 14:18] upgraded cairo (1.12.4-1 -> 1.12.2-3)
+[2012-10-10 14:18] upgraded firefox (16.0-1 -> 15.0.1-1)
+[2012-10-10 14:18] warning: /etc/rc.conf installed as /etc/rc.conf.pacnew
+[2012-10-10 14:18] upgraded initscripts (2012.10.1-1 -> 2012.09.2-2)
+[2012-10-10 14:18] upgraded intel-dri (9.0-1 -> 8.0.4-3)
+[2012-10-10 14:18] upgraded khrplatform-devel (9.0-1 -> 8.0.4-3)
+[2012-10-10 14:18] upgraded libgbm (9.0-1 -> 8.0.4-3)
+[2012-10-10 14:18] upgraded libegl (9.0-1 -> 8.0.4-3)
+[2012-10-10 14:18] upgraded libreoffice-en-US (3.6.2-2 -> 3.6.2-1)
+[2012-10-10 14:18] >>> Updating module dependencies. Please wait ...
+[2012-10-10 14:18] >>> Generating initial ramdisk, using mkinitcpio.  Please wait...
+[2012-10-10 14:18] ==> Building image from preset: 'default'
+[2012-10-10 14:18]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2012-10-10 14:18] ==> Starting build: 3.5.6-1-ARCH
+[2012-10-10 14:18]   -> Running build hook: [base]
+[2012-10-10 14:18]   -> Running build hook: [udev]
+[2012-10-10 14:18]   -> Running build hook: [autodetect]
+[2012-10-10 14:18]   -> Running build hook: [pata]
+[2012-10-10 14:18]   -> Running build hook: [scsi]
+[2012-10-10 14:18]   -> Running build hook: [sata]
+[2012-10-10 14:18]   -> Running build hook: [filesystems]
+[2012-10-10 14:18]   -> Running build hook: [usbinput]
+[2012-10-10 14:18]   -> Running build hook: [fsck]
+[2012-10-10 14:18] ==> Generating module dependencies
+[2012-10-10 14:18] ==> Creating gzip initcpio image: /boot/initramfs-linux.img
+[2012-10-10 14:18] ==> Image generation successful
+[2012-10-10 14:18] ==> Building image from preset: 'fallback'
+[2012-10-10 14:18]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2012-10-10 14:18] ==> Starting build: 3.5.6-1-ARCH
+[2012-10-10 14:18]   -> Running build hook: [base]
+[2012-10-10 14:18]   -> Running build hook: [udev]
+[2012-10-10 14:18]   -> Running build hook: [pata]
+[2012-10-10 14:18]   -> Running build hook: [scsi]
+[2012-10-10 14:18]   -> Running build hook: [sata]
+[2012-10-10 14:18]   -> Running build hook: [filesystems]
+[2012-10-10 14:18]   -> Running build hook: [usbinput]
+[2012-10-10 14:18]   -> Running build hook: [fsck]
+[2012-10-10 14:18] ==> Generating module dependencies
+[2012-10-10 14:18] ==> Creating gzip initcpio image: /boot/initramfs-linux-fallback.img
+[2012-10-10 14:18] ==> Image generation successful
+[2012-10-10 14:18] upgraded linux (3.6.1-1 -> 3.5.6-1)
+[2012-10-10 14:19] upgraded linux-headers (3.6.1-1 -> 3.5.6-1)
+[2012-10-10 14:19] upgraded mesa (9.0-1 -> 8.0.4-3)
+[2012-10-10 14:19] upgraded polkit (0.107-2 -> 0.105-1)
+[2012-10-10 14:19] upgraded svga-dri (9.0-1 -> 8.0.4-3)
+[2012-10-10 14:19] upgraded swt (4.2-2 -> 4.2-1)
+[2012-10-10 14:19] upgraded xf86-input-acecad (1.5.0-5 -> 1.5.0-3)
+[2012-10-10 14:19] upgraded xf86-input-aiptek (1.4.1-5 -> 1.4.1-3)
+[2012-10-10 14:19] upgraded xf86-input-evdev (2.7.3-2 -> 2.7.3-1)
+[2012-10-10 14:19] upgraded xf86-input-joystick (1.6.1-2 -> 1.6.1-1)
+[2012-10-10 14:19] upgraded xf86-input-keyboard (1.6.2-2 -> 1.6.2-1)
+[2012-10-10 14:19] upgraded xf86-input-mouse (1.8.1-2 -> 1.8.1-1)
+[2012-10-10 14:19] upgraded xf86-input-synaptics (1.6.2-2 -> 1.6.2-1)
+[2012-10-10 14:19] upgraded xf86-input-vmmouse (12.9.0-2 -> 12.9.0-1)
+[2012-10-10 14:19] upgraded xf86-input-void (1.4.0-4 -> 1.4.0-3)
+[2012-10-10 14:19] upgraded xf86-input-wacom (0.17.0-2 -> 0.17.0-1)
+[2012-10-10 14:19] upgraded xf86-video-apm (1.2.5-2 -> 1.2.5-1)
+[2012-10-10 14:19] upgraded xf86-video-ark (0.7.5-2 -> 0.7.5-1)
+[2012-10-10 14:19] upgraded xf86-video-ast (0.97.0-2 -> 0.97.0-1)
+[2012-10-10 14:19] upgraded xf86-video-ati (1:6.14.6-2 -> 1:6.14.6-1)
+[2012-10-10 14:19] upgraded xf86-video-chips (1.2.5-2 -> 1.2.5-1)
+[2012-10-10 14:19] upgraded xf86-video-cirrus (1.5.1-2 -> 1.5.1-1)
+[2012-10-10 14:19] upgraded xf86-video-dummy (0.3.6-2 -> 0.3.6-1)
+[2012-10-10 14:19] upgraded xf86-video-fbdev (0.4.3-2 -> 0.4.3-1)
+[2012-10-10 14:19] upgraded xf86-video-glint (1.2.8-2 -> 1.2.8-1)
+[2012-10-10 14:19] upgraded xf86-video-i128 (1.3.6-2 -> 1.3.6-1)
+[2012-10-10 14:19] upgraded xf86-video-i740 (1.3.4-2 -> 1.3.4-1)
+[2012-10-10 14:19] upgraded xf86-video-intel (2.20.9-2 -> 2.20.9-1)
+[2012-10-10 14:19] upgraded xf86-video-mach64 (6.9.3-2 -> 6.9.3-1)
+[2012-10-10 14:19] upgraded xf86-video-mga (1.6.2-2 -> 1.6.2-1)
+[2012-10-10 14:19] upgraded xf86-video-neomagic (1.2.7-2 -> 1.2.7-1)
+[2012-10-10 14:19] upgraded xf86-video-openchrome (0.3.1-2 -> 0.3.1-1)
+[2012-10-10 14:19] upgraded xf86-video-r128 (6.9.1-2 -> 6.9.1-1)
+[2012-10-10 14:19] upgraded xf86-video-rendition (4.2.5-2 -> 4.2.5-1)
+[2012-10-10 14:19] upgraded xf86-video-s3 (0.6.5-2 -> 0.6.5-1)
+[2012-10-10 14:19] upgraded xf86-video-s3virge (1.10.6-2 -> 1.10.6-1)
+[2012-10-10 14:19] upgraded xf86-video-savage (2.3.6-2 -> 2.3.6-1)
+[2012-10-10 14:19] upgraded xf86-video-siliconmotion (1.7.7-2 -> 1.7.7-1)
+[2012-10-10 14:19] upgraded xf86-video-sis (0.10.7-2 -> 0.10.7-1)
+[2012-10-10 14:19] upgraded xf86-video-sisusb (0.9.6-2 -> 0.9.6-1)
+[2012-10-10 14:19] upgraded xf86-video-tdfx (1.4.5-2 -> 1.4.5-1)
+[2012-10-10 14:19] upgraded xf86-video-trident (1.3.6-2 -> 1.3.6-1)
+[2012-10-10 14:19] upgraded xf86-video-tseng (1.2.5-2 -> 1.2.5-1)
+[2012-10-10 14:19] upgraded xf86-video-v4l (0.2.0-11 -> 0.2.0-10)
+[2012-10-10 14:19] upgraded xf86-video-vesa (2.3.2-2 -> 2.3.2-1)
+[2012-10-10 14:19] upgraded xf86-video-vmware (12.0.2-2 -> 12.0.2-1)
+[2012-10-10 14:19] upgraded xf86-video-voodoo (1.2.5-2 -> 1.2.5-1)
+[2012-10-10 14:19] upgraded xorg-server-common (1.13.0-2 -> 1.12.4-1)
+[2012-10-10 14:19] upgraded xorg-server (1.13.0-2 -> 1.12.4-1)
+[2012-10-10 14:19] upgraded xorg-server-devel (1.13.0-2 -> 1.12.4-1)
+[2012-10-11 11:01] Running 'pacman -Syy'
+[2012-10-11 11:01] synchronizing package lists
+[2012-10-11 11:01] Running 'pacman -Syu'
+[2012-10-11 11:01] synchronizing package lists
+[2012-10-11 11:01] starting full system upgrade
+[2012-10-11 11:02] upgraded gparted (0.13.1-1 -> 0.14.0-1)
+[2012-10-11 11:02] upgraded mtdev (1.1.2-1 -> 1.1.3-1)
+[2012-10-11 11:02] upgraded xterm (282-1 -> 283-1)
+[2012-10-11 11:03] Running 'pacman -Sy'
+[2012-10-11 11:03] synchronizing package lists
+[2012-10-11 11:03] Running 'pacman -Sy'
+[2012-10-11 11:03] synchronizing package lists
+[2012-10-11 11:04] Running 'pacman -S gcc-multilib'
+[2012-10-11 11:05] Running 'pacman -S gcc-multilib'
+[2012-10-11 11:06] removed gcc-libs (4.7.2-1)
+[2012-10-11 11:06] removed binutils (2.22-10)
+[2012-10-11 11:06] removed gcc (4.7.2-1)
+[2012-10-11 11:06] installed gcc-libs-multilib (4.7.2-1)
+[2012-10-11 11:06] installed binutils-multilib (2.22-10)
+[2012-10-11 11:06] installed gcc-multilib (4.7.2-1)
+[2012-10-11 11:46] Running 'pacman -Syy'
+[2012-10-11 11:46] synchronizing package lists
+[2012-10-11 11:46] Running 'pacman -Syu'
+[2012-10-11 11:46] synchronizing package lists
+[2012-10-11 11:46] starting full system upgrade
+[2012-10-11 11:46] Running 'pacman -Sy'
+[2012-10-11 11:46] synchronizing package lists
+[2012-10-11 11:46] Running 'pacman -Sy'
+[2012-10-11 11:46] synchronizing package lists
+[2012-10-11 11:46] Running 'pacman -Sy'
+[2012-10-11 11:46] synchronizing package lists
+[2012-10-11 13:10] Running 'pacman -S gtk-doc'
+[2012-10-11 13:10] installed docbook-xml (4.5-5)
+[2012-10-11 13:10] installed docbook-xsl (1.77.1-2)
+[2012-10-11 13:10] installed rarian (0.8.1-2)
+[2012-10-11 13:10] installed gnome-doc-utils (0.20.10-1)
+[2012-10-11 13:10] installed gtk-doc (1.18-1)
+[2012-10-11 13:15] Running 'pacman -S intltool'
+[2012-10-11 13:15] installed perl-xml-parser (2.41-3)
+[2012-10-11 13:15] installed intltool (0.50.2-1)
+[2012-10-11 13:30] Running 'pacman -S babl'
+[2012-10-11 13:30] installed babl (0.1.10-1)
+[2012-10-11 13:31] Running 'pacman -S babl'
+[2012-10-11 13:33] Running 'pacman -Syy'
+[2012-10-11 13:33] synchronizing package lists
+[2012-10-11 13:33] Running 'pacman -Syu'
+[2012-10-11 13:33] synchronizing package lists
+[2012-10-11 13:33] starting full system upgrade
+[2012-10-11 13:37] Running 'pacman -U /var/cache/pacman/pkg/babl-git-20121011-1-x86_64.pkg.tar.xz'
+[2012-10-11 13:37] removed babl (0.1.10-1)
+[2012-10-11 13:37] installed babl-git (20121011-1)
+[2012-10-11 13:38] Running 'pacman -S gegl'
+[2012-10-11 13:38] installed gegl (0.2.0-3)
+[2012-10-11 13:40] Running 'pacman -S --asdeps ruby'
+[2012-10-11 13:40] installed libyaml (0.1.4-2)
+[2012-10-11 13:40] The default location of gem installs is $HOME/.gem/ruby
+[2012-10-11 13:40] Add the following line to your PATH if you plan to install using gem
+[2012-10-11 13:40] $(ruby -rubygems -e "puts Gem.user_dir")/bin
+[2012-10-11 13:40] If you want to install to the system wide location, you must either:
+[2012-10-11 13:40] edit /etc/gemrc or run gem with the --no-user-install flag.
+[2012-10-11 13:40] installed ruby (1.9.3_p194-2)
+[2012-10-11 13:45] Running 'pacman -U /var/cache/pacman/pkg/gegl-git-20121011-1-x86_64.pkg.tar.xz'
+[2012-10-11 13:45] removed gegl (0.2.0-3)
+[2012-10-11 13:45] >>> If you want more functionality install the following packages:
+[2012-10-11 13:45] >>> sdl - libjpeg - openexr - pango - librsvg - graphviz
+[2012-10-11 13:45] >>> And build the package again.
+[2012-10-11 13:45] installed gegl-git (20121011-1)
+[2012-10-14 17:49] Running 'pacman -Syy'
+[2012-10-14 17:49] synchronizing package lists
+[2012-10-14 17:49] Running 'pacman -Syu'
+[2012-10-14 17:49] synchronizing package lists
+[2012-10-14 17:49] starting full system upgrade
+[2012-10-14 17:50] upgraded libglapi (8.0.4-3 -> 9.0-1)
+[2012-10-14 17:50] upgraded libgl (8.0.4-3 -> 9.0-1)
+[2012-10-14 17:50] upgraded ati-dri (8.0.4-3 -> 9.0-1)
+[2012-10-14 17:50] upgraded curl (7.27.0-1 -> 7.28.0-1)
+[2012-10-14 17:50] upgraded firefox (15.0.1-1 -> 16.0.1-1)
+[2012-10-14 17:50] upgraded git (1.7.12.2-1 -> 1.7.12.3-1)
+[2012-10-14 17:50] upgraded gnutls (3.1.2-1 -> 3.1.3-1)
+[2012-10-14 17:50] upgraded imagemagick (6.7.9.8-1 -> 6.7.9.8-2)
+[2012-10-14 17:50] upgraded systemd (194-1 -> 194-3)
+[2012-10-14 17:50] upgraded sysvinit-tools (2.88-8 -> 2.88-9)
+[2012-10-14 17:50] warning: /etc/rc.conf installed as /etc/rc.conf.pacnew
+[2012-10-14 17:50] ----
+[2012-10-14 17:50] > systemd no longer reads MODULES from rc.conf.
+[2012-10-14 17:50] ----
+[2012-10-14 17:50] upgraded initscripts (2012.09.2-2 -> 2012.10.1-1)
+[2012-10-14 17:50] upgraded intel-dri (8.0.4-3 -> 9.0-1)
+[2012-10-14 17:50] upgraded khrplatform-devel (8.0.4-3 -> 9.0-1)
+[2012-10-14 17:50] upgraded lib32-libglapi (8.0.4-4 -> 9.0-1)
+[2012-10-14 17:50] upgraded lib32-libgl (8.0.4-4 -> 9.0-1)
+[2012-10-14 17:50] upgraded lib32-intel-dri (8.0.4-4 -> 9.0-1)
+[2012-10-14 17:50] upgraded libgbm (8.0.4-3 -> 9.0-1)
+[2012-10-14 17:50] upgraded libegl (8.0.4-3 -> 9.0-1)
+[2012-10-14 17:50] upgraded libldap (2.4.32-1 -> 2.4.33-1)
+[2012-10-14 17:50] upgraded libreoffice-en-US (3.6.2-1 -> 3.6.2-2)
+[2012-10-14 17:50] upgraded mesa (8.0.4-3 -> 9.0-1)
+[2012-10-14 17:50] upgraded ruby (1.9.3_p194-2 -> 1.9.3_p286-1)
+[2012-10-14 17:50] upgraded svga-dri (8.0.4-3 -> 9.0-1)
+[2012-10-14 17:50] upgraded swt (4.2-1 -> 4.2-2)
+[2012-10-14 17:50] upgraded sysvinit (2.88-8 -> 2.88-9)
+[2012-10-14 17:50] upgraded xf86-input-acecad (1.5.0-3 -> 1.5.0-5)
+[2012-10-14 17:50] upgraded xf86-input-aiptek (1.4.1-3 -> 1.4.1-5)
+[2012-10-14 17:50] upgraded xf86-input-evdev (2.7.3-1 -> 2.7.3-2)
+[2012-10-14 17:50] upgraded xf86-input-joystick (1.6.1-1 -> 1.6.1-2)
+[2012-10-14 17:50] upgraded xf86-input-keyboard (1.6.2-1 -> 1.6.2-2)
+[2012-10-14 17:50] upgraded xf86-input-mouse (1.8.1-1 -> 1.8.1-2)
+[2012-10-14 17:50] upgraded xf86-input-synaptics (1.6.2-1 -> 1.6.2-2)
+[2012-10-14 17:50] upgraded xf86-input-vmmouse (12.9.0-1 -> 12.9.0-2)
+[2012-10-14 17:50] upgraded xf86-input-void (1.4.0-3 -> 1.4.0-4)
+[2012-10-14 17:50] upgraded xf86-input-wacom (0.17.0-1 -> 0.17.0-2)
+[2012-10-14 17:50] upgraded xf86-video-apm (1.2.5-1 -> 1.2.5-2)
+[2012-10-14 17:50] upgraded xf86-video-ark (0.7.5-1 -> 0.7.5-2)
+[2012-10-14 17:50] upgraded xf86-video-ast (0.97.0-1 -> 0.97.0-2)
+[2012-10-14 17:50] upgraded xf86-video-ati (1:6.14.6-1 -> 1:6.14.6-2)
+[2012-10-14 17:50] upgraded xf86-video-chips (1.2.5-1 -> 1.2.5-2)
+[2012-10-14 17:50] upgraded xf86-video-cirrus (1.5.1-1 -> 1.5.1-2)
+[2012-10-14 17:50] upgraded xf86-video-dummy (0.3.6-1 -> 0.3.6-2)
+[2012-10-14 17:50] upgraded xf86-video-fbdev (0.4.3-1 -> 0.4.3-2)
+[2012-10-14 17:50] upgraded xf86-video-glint (1.2.8-1 -> 1.2.8-2)
+[2012-10-14 17:50] upgraded xf86-video-i128 (1.3.6-1 -> 1.3.6-2)
+[2012-10-14 17:50] upgraded xf86-video-i740 (1.3.4-1 -> 1.3.4-2)
+[2012-10-14 17:50] upgraded xf86-video-intel (2.20.9-1 -> 2.20.9-2)
+[2012-10-14 17:50] upgraded xf86-video-mach64 (6.9.3-1 -> 6.9.3-2)
+[2012-10-14 17:50] upgraded xf86-video-mga (1.6.2-1 -> 1.6.2-2)
+[2012-10-14 17:50] upgraded xf86-video-neomagic (1.2.7-1 -> 1.2.7-2)
+[2012-10-14 17:50] upgraded xf86-video-openchrome (0.3.1-1 -> 0.3.1-2)
+[2012-10-14 17:50] upgraded xf86-video-r128 (6.9.1-1 -> 6.9.1-2)
+[2012-10-14 17:50] upgraded xf86-video-rendition (4.2.5-1 -> 4.2.5-2)
+[2012-10-14 17:50] upgraded xf86-video-s3 (0.6.5-1 -> 0.6.5-2)
+[2012-10-14 17:50] upgraded xf86-video-s3virge (1.10.6-1 -> 1.10.6-2)
+[2012-10-14 17:50] upgraded xf86-video-savage (2.3.6-1 -> 2.3.6-2)
+[2012-10-14 17:50] upgraded xf86-video-siliconmotion (1.7.7-1 -> 1.7.7-2)
+[2012-10-14 17:50] upgraded xf86-video-sis (0.10.7-1 -> 0.10.7-2)
+[2012-10-14 17:50] upgraded xf86-video-sisusb (0.9.6-1 -> 0.9.6-2)
+[2012-10-14 17:50] upgraded xf86-video-tdfx (1.4.5-1 -> 1.4.5-2)
+[2012-10-14 17:50] upgraded xf86-video-trident (1.3.6-1 -> 1.3.6-2)
+[2012-10-14 17:50] upgraded xf86-video-tseng (1.2.5-1 -> 1.2.5-2)
+[2012-10-14 17:50] upgraded xf86-video-v4l (0.2.0-10 -> 0.2.0-11)
+[2012-10-14 17:50] upgraded xf86-video-vesa (2.3.2-1 -> 2.3.2-2)
+[2012-10-14 17:50] upgraded xf86-video-vmware (12.0.2-1 -> 12.0.2-2)
+[2012-10-14 17:50] upgraded xf86-video-voodoo (1.2.5-1 -> 1.2.5-2)
+[2012-10-14 17:50] upgraded xorg-server-common (1.12.4-1 -> 1.13.0-2)
+[2012-10-14 17:50] upgraded xorg-server (1.12.4-1 -> 1.13.0-2)
+[2012-10-14 17:50] upgraded xorg-server-devel (1.12.4-1 -> 1.13.0-2)
+[2012-10-14 17:50] Running 'pacman -Syy'
+[2012-10-14 17:50] synchronizing package lists
+[2012-10-14 17:50] Running 'pacman -Syu'
+[2012-10-14 17:50] synchronizing package lists
+[2012-10-14 17:50] starting full system upgrade
+[2012-10-14 17:51] Running 'pacman -S synergy'
+[2012-10-14 17:51] installed synergy (1.4.10-1)
+[2012-10-14 18:20] Running 'pacman -S gedit'
+[2012-10-14 18:20] installed gtksourceview3 (3.4.2-1)
+[2012-10-14 18:20] installed gobject-introspection (1.32.1-2)
+[2012-10-14 18:20] installed libpeas (1.4.0-2)
+[2012-10-14 18:20] installed iso-codes (3.38-1)
+[2012-10-14 18:20] installed pygobject-devel (3.2.2-1)
+[2012-10-14 18:20] installed python2-gobject (3.2.2-1)
+[2012-10-14 18:20] installed dconf (0.12.1-2)
+[2012-10-14 18:20] installed gedit (3.4.2-1)
+[2012-10-14 18:21] Running 'pacman -S gnu-netcat'
+[2012-10-14 18:21] installed gnu-netcat (0.7.1-4)
+[2012-10-14 19:18] Running 'pacman -S zip'
+[2012-10-14 19:18] installed zip (3.0-3)
+[2012-10-15 12:01] Running 'pacman -S ctags'
+[2012-10-15 12:01] installed ctags (5.8-3)
+[2012-10-15 12:01] Running 'pacman -S omnicppcomplete'
+[2012-10-15 12:01] Running 'pacman -S vim-omnicppcomplete'
+[2012-10-15 12:01] Updating vim help tags...done.
+[2012-10-15 12:01] installed vim-omnicppcomplete (0.4.1-6)
+[2012-10-15 12:02] Running 'pacman -S Tagbar'
+[2012-10-15 12:02] Running 'pacman -Syy'
+[2012-10-15 12:02] synchronizing package lists
+[2012-10-15 12:02] Running 'pacman -Syu'
+[2012-10-15 12:02] synchronizing package lists
+[2012-10-15 12:02] starting full system upgrade
+[2012-10-15 12:03] Running 'pacman -Sy'
+[2012-10-15 12:03] synchronizing package lists
+[2012-10-15 12:03] Running 'pacman -Sy'
+[2012-10-15 12:03] synchronizing package lists
+[2012-10-15 12:03] Running 'pacman -Sy'
+[2012-10-15 12:03] synchronizing package lists
+[2012-10-15 12:04] Running 'pacman -Sy'
+[2012-10-15 12:04] synchronizing package lists
+[2012-10-15 12:04] Running 'pacman -Sy'
+[2012-10-15 12:04] synchronizing package lists
+[2012-10-16 20:27] Running 'pacman -Syy'
+[2012-10-16 20:27] synchronizing package lists
+[2012-10-16 20:27] Running 'pacman -Syu'
+[2012-10-16 20:27] synchronizing package lists
+[2012-10-16 20:27] starting full system upgrade
+[2012-10-16 20:28] upgraded feh (2.6.3-1 -> 2.7-1)
+[2012-10-16 20:28] upgraded hwids (20120922-1 -> 20121012-1)
+[2012-10-16 20:28] upgraded inputattach (1.24-5 -> 1.24-6)
+[2012-10-16 20:28] >>> Updating module dependencies. Please wait ...
+[2012-10-16 20:28] >>> Generating initial ramdisk, using mkinitcpio.  Please wait...
+[2012-10-16 20:28] ==> Building image from preset: 'default'
+[2012-10-16 20:28]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2012-10-16 20:28] ==> Starting build: 3.6.2-1-ARCH
+[2012-10-16 20:28]   -> Running build hook: [base]
+[2012-10-16 20:28]   -> Running build hook: [udev]
+[2012-10-16 20:28]   -> Running build hook: [autodetect]
+[2012-10-16 20:28]   -> Running build hook: [pata]
+[2012-10-16 20:28]   -> Running build hook: [scsi]
+[2012-10-16 20:28]   -> Running build hook: [sata]
+[2012-10-16 20:28]   -> Running build hook: [filesystems]
+[2012-10-16 20:28]   -> Running build hook: [usbinput]
+[2012-10-16 20:28]   -> Running build hook: [fsck]
+[2012-10-16 20:28] ==> Generating module dependencies
+[2012-10-16 20:28] ==> Creating gzip initcpio image: /boot/initramfs-linux.img
+[2012-10-16 20:28] ==> Image generation successful
+[2012-10-16 20:28] ==> Building image from preset: 'fallback'
+[2012-10-16 20:28]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2012-10-16 20:28] ==> Starting build: 3.6.2-1-ARCH
+[2012-10-16 20:28]   -> Running build hook: [base]
+[2012-10-16 20:28]   -> Running build hook: [udev]
+[2012-10-16 20:28]   -> Running build hook: [pata]
+[2012-10-16 20:28]   -> Running build hook: [scsi]
+[2012-10-16 20:28]   -> Running build hook: [sata]
+[2012-10-16 20:28]   -> Running build hook: [filesystems]
+[2012-10-16 20:28]   -> Running build hook: [usbinput]
+[2012-10-16 20:28]   -> Running build hook: [fsck]
+[2012-10-16 20:28] ==> Generating module dependencies
+[2012-10-16 20:28] ==> Creating gzip initcpio image: /boot/initramfs-linux-fallback.img
+[2012-10-16 20:28] ==> Image generation successful
+[2012-10-16 20:28] upgraded linux (3.5.6-1 -> 3.6.2-1)
+[2012-10-16 20:28] upgraded linux-headers (3.5.6-1 -> 3.6.2-1)
+[2012-10-16 20:28] upgraded netcfg (2.8.11-1 -> 2.8.11-2)
+[2012-10-16 20:28] upgraded pam (1.1.5-4 -> 1.1.6-1)
+[2012-10-16 20:28] upgraded util-linux (2.22-7 -> 2.22.1-1)
+[2012-10-16 20:28] upgraded wpa_supplicant (1.0-1 -> 1.0-2)
+[2012-10-16 20:28] upgraded xterm (283-1 -> 284-1)
+[2012-10-16 20:28] Running 'pacman -Syy'
+[2012-10-16 20:28] synchronizing package lists
+[2012-10-16 20:28] Running 'pacman -Syu'
+[2012-10-16 20:28] synchronizing package lists
+[2012-10-16 20:28] starting full system upgrade
+[2012-10-16 20:28] Running 'pacman -Sy'
+[2012-10-16 20:28] synchronizing package lists
+[2012-10-16 20:28] Running 'pacman -Sy'
+[2012-10-16 20:28] synchronizing package lists
+[2012-10-16 20:28] Running 'pacman -Sy'
+[2012-10-16 20:28] synchronizing package lists
+[2012-10-16 20:29] Running 'pacman -S --asdeps haskell-syb haskell-regex-base'
+[2012-10-16 20:29] Reading package info from stdin ... done.
+[2012-10-16 20:29] Warning: Cannot read ../ansi-terminal/ansi-terminal.haddock:
+[2012-10-16 20:29]    Interface file is of wrong version: ../ansi-terminal/ansi-terminal.haddock
+[2012-10-16 20:29] Skipping this interface.
+[2012-10-16 20:29] Warning: Cannot read ../curl/curl.haddock:
+[2012-10-16 20:29]    Interface file is of wrong version: ../curl/curl.haddock
+[2012-10-16 20:29] Skipping this interface.
+[2012-10-16 20:29] installed haskell-syb (0.3.7-1)
+[2012-10-16 20:29] Reading package info from stdin ... done.
+[2012-10-16 20:29] Warning: Cannot read ../ansi-terminal/ansi-terminal.haddock:
+[2012-10-16 20:29]    Interface file is of wrong version: ../ansi-terminal/ansi-terminal.haddock
+[2012-10-16 20:29] Skipping this interface.
+[2012-10-16 20:29] Warning: Cannot read ../curl/curl.haddock:
+[2012-10-16 20:29]    Interface file is of wrong version: ../curl/curl.haddock
+[2012-10-16 20:29] Skipping this interface.
+[2012-10-16 20:29] installed haskell-regex-base (0.93.2-7)
+[2012-10-16 20:29] Running 'pacman -U --asdeps /var/cache/pacman/pkg/haskell-regex-pcre-0.94.4-1-x86_64.pkg.tar.xz'
+[2012-10-16 20:29] Reading package info from stdin ... done.
+[2012-10-16 20:29] Warning: Cannot read ../ansi-terminal/ansi-terminal.haddock:
+[2012-10-16 20:29]    Interface file is of wrong version: ../ansi-terminal/ansi-terminal.haddock
+[2012-10-16 20:29] Skipping this interface.
+[2012-10-16 20:29] Warning: Cannot read ../curl/curl.haddock:
+[2012-10-16 20:29]    Interface file is of wrong version: ../curl/curl.haddock
+[2012-10-16 20:29] Skipping this interface.
+[2012-10-16 20:29] installed haskell-regex-pcre (0.94.4-1)
+[2012-10-16 20:30] Running 'pacman -U --asdeps /var/cache/pacman/pkg/haskell-json-0.5-2-x86_64.pkg.tar.xz'
+[2012-10-16 20:30] Reading package info from stdin ... done.
+[2012-10-16 20:30] Warning: Cannot read ../ansi-terminal/ansi-terminal.haddock:
+[2012-10-16 20:30]    Interface file is of wrong version: ../ansi-terminal/ansi-terminal.haddock
+[2012-10-16 20:30] Skipping this interface.
+[2012-10-16 20:30] Warning: Cannot read ../curl/curl.haddock:
+[2012-10-16 20:30]    Interface file is of wrong version: ../curl/curl.haddock
+[2012-10-16 20:30] Skipping this interface.
+[2012-10-16 20:30] installed haskell-json (0.5-2)
+[2012-10-16 20:32] Running 'pacman -S curl'
+[2012-10-16 20:32] upgraded curl (7.28.0-1 -> 7.28.0-1)
+[2012-10-16 20:32] Running 'pacman -Sy'
+[2012-10-16 20:32] synchronizing package lists
+[2012-10-16 20:35] Running 'pacman -Sy'
+[2012-10-16 20:35] synchronizing package lists
+[2012-10-16 20:35] Running 'pacman -Sy'
+[2012-10-16 20:35] synchronizing package lists
+[2012-10-16 20:35] Running 'pacman -Sy'
+[2012-10-16 20:35] synchronizing package lists
+[2012-10-16 20:42] Running 'pacman -U /var/cache/pacman/pkg/haskell-curl-1.3.7-20-x86_64.pkg.tar.xz'
+[2012-10-16 20:42] ghc-pkg: cannot find package curl-1.3.7
+[2012-10-16 20:42] Reading package info from stdin ... done.
+[2012-10-16 20:42] Warning: Cannot read ../ansi-terminal/ansi-terminal.haddock:
+[2012-10-16 20:42]    Interface file is of wrong version: ../ansi-terminal/ansi-terminal.haddock
+[2012-10-16 20:42] Skipping this interface.
+[2012-10-16 20:42] upgraded haskell-curl (1.3.7-20 -> 1.3.7-20)
+[2012-10-16 20:43] Running 'pacman -U /var/cache/pacman/pkg/haskell-ansi-terminal-0.5.5-20-x86_64.pkg.tar.xz'
+[2012-10-16 20:43] ghc-pkg: cannot find package ansi-terminal-0.5.5
+[2012-10-16 20:43] Reading package info from stdin ... done.
+[2012-10-16 20:43] upgraded haskell-ansi-terminal (0.5.5-20 -> 0.5.5-20)
+[2012-10-16 20:44] Running 'pacman -U /var/cache/pacman/pkg/haskell-curl-1.3.7-20-x86_64.pkg.tar.xz'
+[2012-10-16 20:44] Reading package info from stdin ... done.
+[2012-10-16 20:44] upgraded haskell-curl (1.3.7-20 -> 1.3.7-20)
+[2012-10-16 20:45] Running 'pacman -U /var/cache/pacman/pkg/haskell-json-0.5-2-x86_64.pkg.tar.xz'
+[2012-10-16 20:46] Reading package info from stdin ... done.
+[2012-10-16 20:46] upgraded haskell-json (0.5-2 -> 0.5-2)
+[2012-10-16 20:46] Running 'pacman -U /var/cache/pacman/pkg/haskell-regex-pcre-0.94.4-1-x86_64.pkg.tar.xz'
+[2012-10-16 20:47] Reading package info from stdin ... done.
+[2012-10-16 20:47] upgraded haskell-regex-pcre (0.94.4-1 -> 0.94.4-1)
+[2012-10-16 20:47] Running 'pacman -Sy'
+[2012-10-16 20:47] synchronizing package lists
+[2012-10-16 20:49] Running 'pacman -U /var/cache/pacman/pkg/aura-1.0.2.0-1-x86_64.pkg.tar.xz'
+[2012-10-16 20:49] upgraded aura (1.0.0.0-1 -> 1.0.2.0-1)
+[2012-10-16 20:49] Running 'pacman -Sy'
+[2012-10-16 20:49] synchronizing package lists
+[2012-10-16 20:49] Running 'pacman -Sy'
+[2012-10-16 20:49] synchronizing package lists
+[2012-10-16 20:49] Running 'pacman -Sy'
+[2012-10-16 20:49] synchronizing package lists
+[2012-10-16 21:35] Running 'pacman -S rxvt-unicode'
+[2012-10-16 21:35] installed rxvt-unicode (9.15-3)
+[2012-10-17 11:16] Running 'pacman -Syy'
+[2012-10-17 11:16] synchronizing package lists
+[2012-10-17 11:16] Running 'pacman -Syu'
+[2012-10-17 11:16] synchronizing package lists
+[2012-10-17 11:16] starting full system upgrade
+[2012-10-17 11:16] upgraded pygobject-devel (3.2.2-1 -> 3.2.2-2)
+[2012-10-17 11:16] upgraded pygobject2-devel (2.28.6-6 -> 2.28.6-7)
+[2012-10-17 11:16] upgraded python (3.2.3-3 -> 3.3.0-1)
+[2012-10-17 11:16] upgraded python-dbus-common (1.1.1-1 -> 1.1.1-2)
+[2012-10-17 11:16] upgraded python2-dbus (1.1.1-1 -> 1.1.1-2)
+[2012-10-17 11:16] upgraded python2-gobject (3.2.2-1 -> 3.2.2-2)
+[2012-10-17 11:16] upgraded python2-gobject2 (2.28.6-6 -> 2.28.6-7)
+[2012-10-17 11:16] upgraded python2-urwid (1.0.2-1 -> 1.0.2-2)
+[2012-10-17 11:16] upgraded wicd (1.7.2.4-3 -> 1.7.2.4-4)
+[2012-10-17 11:16] upgraded wicd-gtk (1.7.2.4-3 -> 1.7.2.4-4)
+[2012-10-17 11:18] Running 'pacman -U /var/cache/pacman/pkg/vim-tagbar-2.4.1-2-any.pkg.tar.xz'
+[2012-10-17 11:18] Running 'pacman -U /var/cache/pacman/pkg/vim-tagbar-2.4.1-2-any.pkg.tar.xz'
+[2012-10-17 11:18] Updating vim help tags...done.
+[2012-10-17 11:18] installed vim-tagbar (2.4.1-2)
+[2012-10-17 18:51] Running 'pacman -U /var/cache/pacman/pkg/vim-syntastic-git-20121017-1-any.pkg.tar.xz'
+[2012-10-17 18:52] Updating vim help tags...done.
+[2012-10-17 18:52] installed vim-syntastic-git (20121017-1)
+[2012-10-17 18:52] Running 'pacman -S vim-supertab'
+[2012-10-17 18:52] Updating vim help tags...done.
+[2012-10-17 18:52] installed vim-supertab (2.0-1)
+[2012-10-17 18:52] Running 'pacman -S powerline'
+[2012-10-17 18:53] Running 'pacman -U /var/cache/pacman/pkg/vim-powerline-beta-2-any.pkg.tar.xz'
+[2012-10-17 18:53] warning: directory permissions differ on usr/share/vim/vimfiles/doc/
+filesystem: 755  package: 644
+[2012-10-17 18:53] warning: directory permissions differ on usr/share/vim/vimfiles/autoload/
+filesystem: 755  package: 644
+[2012-10-17 18:53] warning: directory permissions differ on usr/share/vim/vimfiles/plugin/
+filesystem: 755  package: 644
+[2012-10-17 18:53] installed vim-powerline (beta-2)
+[2012-10-17 18:54] Running 'pacman -U /var/cache/pacman/pkg/vim-pathogen-2.0-1-any.pkg.tar.xz'
+[2012-10-17 18:54] Updating vim help tags...done.
+[2012-10-17 18:54] installed vim-pathogen (2.0-1)
+[2012-10-17 19:47] Running 'pacman -Rs vim-powerline'
+[2012-10-17 19:47] removed vim-powerline (beta-2)
+[2012-10-17 19:54] Running 'pacman -Syy'
+[2012-10-17 19:54] synchronizing package lists
+[2012-10-17 19:54] Running 'pacman -Syu'
+[2012-10-17 19:54] synchronizing package lists
+[2012-10-17 19:54] starting full system upgrade
+[2012-10-18 13:39] Running 'pacman -Syy'
+[2012-10-18 13:39] synchronizing package lists
+[2012-10-18 13:39] Running 'pacman -Syu'
+[2012-10-18 13:39] synchronizing package lists
+[2012-10-18 13:39] starting full system upgrade
+[2012-10-18 13:40] upgraded git (1.7.12.3-1 -> 1.7.12.4-1)
+[2012-10-18 13:40] upgraded openjdk6 (6.b24_1.11.4-1 -> 6.b24_1.11.5-1)
+[2012-10-18 13:40] upgraded qtcreator (2.6.0beta-1 -> 2.6.0rc-1)
+[2012-10-18 14:53] Running 'pacman -Sy'
+[2012-10-18 14:53] synchronizing package lists
+[2012-10-18 14:53] Running 'pacman -Sy'
+[2012-10-18 14:53] synchronizing package lists
+[2012-10-18 14:54] Running 'pacman -Sy'
+[2012-10-18 14:54] synchronizing package lists
+[2012-10-18 14:56] Running 'pacman -U /var/cache/pacman/pkg/google-chrome-dev-24.0.1297.0-1-x86_64.pkg.tar.xz'
+[2012-10-18 14:56] upgraded google-chrome-dev (24.0.1284.2-1 -> 24.0.1297.0-1)
+[2012-10-18 17:41] Running 'pacman -Sy'
+[2012-10-18 17:41] synchronizing package lists
+[2012-10-18 17:41] Running 'pacman -Sy'
+[2012-10-18 17:41] synchronizing package lists
+[2012-10-18 17:41] Running 'pacman -Sy'
+[2012-10-18 17:41] synchronizing package lists
+[2012-10-20 22:48] Running 'pacman -Syy'
+[2012-10-20 22:48] synchronizing package lists
+[2012-10-20 23:14] Running 'pacman -Syy'
+[2012-10-20 23:14] synchronizing package lists
+[2012-10-20 23:14] Running 'pacman -Syu'
+[2012-10-20 23:14] synchronizing package lists
+[2012-10-20 23:14] starting full system upgrade
+[2012-10-20 23:15] upgraded libreoffice-en-US (3.6.2-2 -> 3.6.2-3)
+[2012-10-20 23:15] upgraded man-pages (3.42-1 -> 3.43-1)
+[2012-10-20 23:15] upgraded net-snmp (5.7.1-4 -> 5.7.2-1)
+[2012-10-20 23:15] upgraded netcfg (2.8.11-2 -> 3.0-1)
+[2012-10-20 23:15] upgraded poppler (0.20.3-1 -> 0.20.5-1)
+[2012-10-20 23:15] upgraded poppler-glib (0.20.3-1 -> 0.20.5-1)
+[2012-10-20 23:15] upgraded ppp (2.4.5-4 -> 2.4.5-5)
+[2012-10-20 23:15] upgraded pygobject2-devel (2.28.6-7 -> 2.28.6-8)
+[2012-10-20 23:15] upgraded python2-gobject2 (2.28.6-7 -> 2.28.6-8)
+[2012-10-20 23:15] ==> journald now writes to /var/log/journal by default. This can be
+[2012-10-20 23:15]     controlled with the Storage setting in /etc/systemd/journald.conf
+[2012-10-20 23:15] upgraded systemd (194-3 -> 194-4)
+[2012-10-20 23:15] upgraded syslog-ng (3.3.6-1 -> 3.3.6-2)
+[2012-10-20 23:15] upgraded xdg-utils (1.1.0-2.20120520 -> 1.1.0.git20121008-1)
+[2012-10-20 23:15] upgraded xf86-video-intel (2.20.9-2 -> 2.20.10-1)
+[2012-10-20 23:15] upgraded xf86-video-trident (1.3.6-2 -> 1.3.6-3)
+[2012-10-20 23:15] upgraded xorg-server-common (1.13.0-2 -> 1.13.0-3)
+[2012-10-20 23:15] upgraded xorg-server (1.13.0-2 -> 1.13.0-3)
+[2012-10-20 23:15] upgraded xorg-server-devel (1.13.0-2 -> 1.13.0-3)
+[2012-10-20 23:15] Running 'pacman -Sy'
+[2012-10-20 23:15] synchronizing package lists
+[2012-10-20 23:15] Running 'pacman -Sy'
+[2012-10-20 23:15] synchronizing package lists
+[2012-10-20 23:15] Running 'pacman -Sy'
+[2012-10-20 23:15] synchronizing package lists
+[2012-10-21 16:09] Running 'pacman -S xawtv'
+[2012-10-21 16:09] installed aalib (1.4rc5-9)
+[2012-10-21 16:09] installed libdv (1.0.0-4)
+[2012-10-21 16:09] installed zvbi (0.2.33-4)
+[2012-10-21 16:09] installed libftdi (0.20-1)
+[2012-10-21 16:09] installed libirman (0.4.5-3)
+[2012-10-21 16:09] installed lirc-utils (1:0.9.0-31)
+[2012-10-21 16:09] installed xawtv (3.101-2)
+[2012-10-21 16:27] Running 'pacman -S opencv'
+[2012-10-21 16:27] installed freeglut (2.8.0-2)
+[2012-10-21 16:27] installed glu (9.0.0-1)
+[2012-10-21 16:27] installed jasper (1.900.1-8)
+[2012-10-21 16:27] installed ilmbase (1.0.2-1)
+[2012-10-21 16:27] installed openexr (1.7.1-1)
+[2012-10-21 16:27] installed xine-lib (1.2.2-2)
+[2012-10-21 16:27] installed libraw1394 (2.0.7-2)
+[2012-10-21 16:27] installed libdc1394 (2.1.3-2)
+[2012-10-21 16:27] installed opencv (2.4.2-4)
+[2012-10-22 10:48] Running 'pacman -Syy'
+[2012-10-22 10:48] synchronizing package lists
+[2012-10-22 10:48] Running 'pacman -Syu'
+[2012-10-22 10:48] synchronizing package lists
+[2012-10-22 10:48] starting full system upgrade
+[2012-10-22 10:49] upgraded ethtool (1:3.5-1 -> 1:3.6-1)
+[2012-10-22 10:49] upgraded git (1.7.12.4-1 -> 1.8.0-1)
+[2012-10-22 10:49] upgraded libpng (1.5.12-1 -> 1.5.13-1)
+[2012-10-22 10:49] ==> syslog-ng now reads from /run/systemd/journal/syslog in the
+[2012-10-22 10:49]     default config. If you still use sysvinit/initscripts, this
+[2012-10-22 10:49]     must be /dev/log in /etc/syslog-ng/syslog-ng.conf
+[2012-10-22 10:49] upgraded syslog-ng (3.3.6-2 -> 3.3.6-3)
+[2012-10-22 10:49] upgraded tzdata (2012f-1 -> 2012g-1)
+[2012-10-22 10:49] upgraded vim-runtime (7.3.661-1 -> 7.3.709-1)
+[2012-10-22 10:49] upgraded vim (7.3.661-1 -> 7.3.709-1)
+[2012-10-22 10:49] upgraded xf86-video-intel (2.20.10-1 -> 2.20.12-1)
+[2012-10-22 10:49] upgraded xf86-video-nv (2.1.20-1 -> 2.1.20-2)
+[2012-10-22 11:21] Running 'pacman -U /var/cache/pacman/pkg/xf86-video-intel-2.20.8-1-x86_64.pkg.tar.xz'
+[2012-10-22 11:21] upgraded xf86-video-intel (2.20.12-1 -> 2.20.8-1)
+[2012-10-22 11:23] Running 'pacman -U /var/cache/pacman/pkg/openjdk6-6.b24_1.11.4-1-x86_64.pkg.tar.xz'
+[2012-10-22 11:23] upgraded openjdk6 (6.b24_1.11.5-1 -> 6.b24_1.11.4-1)
+[2012-10-22 11:40] Running 'pacman -U /var/cache/pacman/pkg/xorg-server-1.12.4-1-x86_64.pkg.tar.xz'
+[2012-10-22 11:41] Running 'pacman -U /var/cache/pacman/pkg/xorg-server-1.12.4-1-x86_64.pkg.tar.xz'
+[2012-10-22 11:43] Running 'pacman -U /var/cache/pacman/pkg/xorg-server-1.13.0-2-x86_64.pkg.tar.xz'
+[2012-10-22 11:43] upgraded xorg-server (1.13.0-3 -> 1.13.0-2)
+[2012-10-22 11:48] Running 'pacman -U /var/cache/pacman/pkg/openjdk7-src-7.u7_2.3.2-2-x86_64.pkg.tar.xz'
+[2012-10-22 11:48] Running 'pacman -U /var/cache/pacman/pkg/openjdk7-src-7.u7_2.3.2-2-x86_64.pkg.tar.xz'
+[2012-10-22 11:48] installed openjdk7-src (7.u7_2.3.2-2)
+[2012-10-22 11:49] Running 'pacman -U /var/cache/pacman/pkg/openjdk6-6.b24_1.11.5-1-x86_64.pkg.tar.xz'
+[2012-10-22 11:49] upgraded openjdk6 (6.b24_1.11.4-1 -> 6.b24_1.11.5-1)
+[2012-10-22 11:49] Running 'pacman -Syy'
+[2012-10-22 11:49] synchronizing package lists
+[2012-10-22 11:50] Running 'pacman -Syu'
+[2012-10-22 11:50] synchronizing package lists
+[2012-10-22 11:50] starting full system upgrade
+[2012-10-22 11:50] Running 'pacman -Syu'
+[2012-10-22 11:50] synchronizing package lists
+[2012-10-22 11:50] starting full system upgrade
+[2012-10-22 11:50] upgraded openjdk7-src (7.u7_2.3.2-2 -> 7.u9_2.3.3-1)
+[2012-10-22 11:50] upgraded xf86-video-intel (2.20.8-1 -> 2.20.12-1)
+[2012-10-22 11:50] upgraded xorg-server (1.13.0-2 -> 1.13.0-3)
+[2012-10-22 12:19] Running 'pacman -Sy'
+[2012-10-22 12:19] synchronizing package lists
+[2012-10-22 12:19] Running 'pacman -Sy'
+[2012-10-22 12:19] synchronizing package lists
+[2012-10-22 12:19] Running 'pacman -Sy'
+[2012-10-22 12:19] synchronizing package lists
+[2012-10-22 12:21] Running 'pacman -Syy'
+[2012-10-22 12:21] synchronizing package lists
+[2012-10-22 12:21] Running 'pacman -Syu'
+[2012-10-22 12:21] synchronizing package lists
+[2012-10-22 12:21] starting full system upgrade
+[2012-10-22 12:24] Running 'pacman -S --asdeps xorg-server-utils'
+[2012-10-22 12:24] installed xorg-server-utils (7.6-3)
+[2012-10-22 12:31] Running 'pacman -Rsu automoc4 cmake cvs flam3 git glee haskell-ansi-terminal haskell-curl haskell-json haskell-regex-pcre js linux-headers tk wxgtk2.9 xorg-server-devel xorg-server-utils'
+[2012-10-22 12:32] Running 'pacman -R xorg-server-devel'
+[2012-10-22 12:32] removed xorg-server-devel (1.13.0-3)
+[2012-10-22 12:32] Running 'pacman -R xorg-server-utils'
+[2012-10-22 12:32] removed xorg-server-utils (7.6-3)
+[2012-10-22 12:32] Running 'pacman -R xf86driproto'
+[2012-10-22 12:32] removed xf86driproto (2.1.1-2)
+[2012-10-22 12:33] Running 'pacman -R xorg-util-mactos'
+[2012-10-22 12:33] Running 'pacman -R xorg-util-macros'
+[2012-10-22 12:33] removed xorg-util-macros (1.17-1)
+[2012-10-22 12:33] Running 'pacman -U /var/cache/pacman/pkg/aura-1.0.2.1-1-x86_64.pkg.tar.xz'
+[2012-10-22 12:33] upgraded aura (1.0.2.0-1 -> 1.0.2.1-1)
+[2012-10-22 12:35] Running 'pacman -S --asdeps xorg-server-utils'
+[2012-10-22 12:35] installed xorg-server-utils (7.6-3)
+[2012-10-22 12:35] Running 'pacman -U /var/cache/pacman/pkg/catacomb-snatch-1.1.0-297-any.pkg.tar.xz'
+[2012-10-22 12:35] installed catacomb-snatch (1.1.0-297)
+[2012-10-22 12:38] Running 'pacman -Syy'
+[2012-10-22 12:38] synchronizing package lists
+[2012-10-22 12:38] Running 'pacman -Syu'
+[2012-10-22 12:38] synchronizing package lists
+[2012-10-22 12:38] starting full system upgrade
+[2012-10-22 12:39] Running 'pacman -U /var/cache/pacman/pkg/jogl-1.1.1-8-x86_64.pkg.tar.xz'
+[2012-10-22 12:39] installed jogl (1.1.1-8)
+[2012-10-22 12:42] Running 'pacman -R jogl'
+[2012-10-22 12:42] Running 'pacman -Rs jogl'
+[2012-10-22 12:42] removed jogl (1.1.1-8)
+[2012-10-22 12:45] Running 'pacman -S libgles'
+[2012-10-22 12:45] installed libgles (9.0-1)
+[2012-10-22 12:46] Running 'pacman -Rs libgles'
+[2012-10-22 12:46] removed libgles (9.0-1)
+[2012-10-22 12:49] Running 'pacman -S jre7-openjdk'
+[2012-10-22 12:51] Running 'pacman -Rs openjdk7-src'
+[2012-10-22 12:51] removed openjdk7-src (7.u9_2.3.3-1)
+[2012-10-22 12:58] Running 'pacman -Syu'
+[2012-10-22 12:58] synchronizing package lists
+[2012-10-22 12:58] starting full system upgrade
+[2012-10-22 13:03] Running 'pacman -U /var/cache/pacman/pkg/libgl-8.0.4-3-x86_64.pkg.tar.xz'
+[2012-10-22 13:04] Running 'pacman -U /var/cache/pacman/pkg/ati-dri-8.99.git_20121006-1-x86_64.pkg.tar.xz'
+[2012-10-22 13:04] Running 'pacman -U /var/cache/pacman/pkg/ati-dri-8.99.git_20121006-1-x86_64.pkg.tar.xz'
+[2012-10-22 13:06] Running 'pacman -Ud /var/cache/pacman/pkg/libgl-8.99.git_20121006-1-x86_64.pkg.tar.xz'
+[2012-10-22 13:06] upgraded libgl (9.0-1 -> 8.99.git_20121006-1)
+[2012-10-22 13:06] Running 'pacman -U /var/cache/pacman/pkg/ati-dri-8.99.git_20121006-1-x86_64.pkg.tar.xz'
+[2012-10-22 13:06] upgraded ati-dri (9.0-1 -> 8.99.git_20121006-1)
+[2012-10-22 13:06] Running 'pacman -U /var/cache/pacman/pkg/intel-dri-8.99.git_20121006-1-x86_64.pkg.tar.xz'
+[2012-10-22 13:06] upgraded intel-dri (9.0-1 -> 8.99.git_20121006-1)
+[2012-10-22 13:10] Running 'pacman -Rs lib32-libglapi'
+[2012-10-22 13:10] Running 'pacman -Rs lib32-libgl'
+[2012-10-22 13:10] Running 'pacman -Rs libgl'
+[2012-10-22 13:13] Running 'pacman -Rs libgl'
+[2012-10-22 13:14] Running 'pacman -S --asdeps llvm imake'
+[2012-10-22 13:15] installed llvm (3.1-5)
+[2012-10-22 13:15] installed imake (1.0.5-1)
+[2012-10-22 13:24] Running 'pacman -U /var/cache/pacman/pkg/mesa-full-20121022-1-x86_64.pkg.tar.xz'
+[2012-10-22 17:31] Running 'pacman -Syy'
+[2012-10-22 17:31] synchronizing package lists
+[2012-10-22 17:31] Running 'pacman -Syu'
+[2012-10-22 17:31] synchronizing package lists
+[2012-10-22 17:31] starting full system upgrade
+[2012-10-22 17:31] upgraded libgl (8.99.git_20121006-1 -> 9.0-1)
+[2012-10-22 17:31] upgraded ati-dri (8.99.git_20121006-1 -> 9.0-1)
+[2012-10-22 17:31] upgraded intel-dri (8.99.git_20121006-1 -> 9.0-1)
+[2012-10-22 17:31] Running 'pacman -Sy'
+[2012-10-22 17:31] synchronizing package lists
+[2012-10-22 17:31] Running 'pacman -Sy'
+[2012-10-22 17:31] synchronizing package lists
+[2012-10-22 17:31] Running 'pacman -Sy'
+[2012-10-22 17:31] synchronizing package lists
+[2012-10-22 17:36] Running 'pacman -S lib32-glu'
+[2012-10-22 17:36] installed lib32-glu (9.0.0-1)
