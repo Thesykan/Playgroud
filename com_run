@@ -1,19 +1,12 @@
 #! /bin/bash
 
-export CLASSPATH=$PWD"/jar_lib/gluegen-rt.jar:"$PWD"/jar_lib/gluegen-rt-natives-linux-amd64.jar:"$PWD"/jar_lib/jogl-all.jar:"$PWD"/jar_lib/jogl-all-natives-linux-amd64.jar:." 
-
-#echo $CLASSPATH
+export CLASSPATH=$PWD"/jar_lib/gluegen-rt.jar:"$PWD"/jar_lib/jogl-all.jar:." 
 
 cd java
 
 javac PG.java
 
-export LD_LIBRARY_PATH=$PWD"/lib/"
-
-#echo $LD_LIBRARY_PATH
-
-java -Djava.library.path=$PWD"/lib/" PG &
-
+java PG
 
 
 
